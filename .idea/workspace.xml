@@ -6,9 +6,18 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/FeedbackTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369178102900" ignored="false" />
     <file path="/Feedback.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369177705569" ignored="false" />
-    <file path="/Dummy.txt" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369168900557" ignored="false" />
+    <file path="/Dummy.txt" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369344538112" ignored="false" />
     <file path="/SecretCode.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369257440862" ignored="false" />
     <file path="/SecretCodeTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369256988106" ignored="false" />
+    <file path="/Game.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369346000510" ignored="false" />
+    <file path="/Io.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369342929562" ignored="false" />
+    <file path="/build.xml" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369273847818" ignored="false" />
+    <file path="/Main.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369267269705" ignored="false" />
+    <file path="/IoTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369328761441" ignored="false" />
+    <file path="/a.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369324865568" ignored="false" />
+    <file path="/GameRulesTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369347289178" ignored="false" />
+    <file path="/GameRules.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369347123256" ignored="false" />
+    <file path="/fragment.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369344538112" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +81,21 @@
       <file leaf-file-name="Io.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="31" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecretCode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="39" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,39 +103,8 @@
       <file leaf-file-name="IoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="24" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Feedback.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="86" selection-start="1394" selection-end="1437" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeedbackTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="370" selection-end="487" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecretCode.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="304" selection-end="304" vertical-scroll-proportion="0.23703703">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,10 +112,57 @@
       <file leaf-file-name="SecretCodeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="51" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+            <state line="26" column="5" selection-start="350" selection-end="618" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="7" selection-start="909" selection-end="909" vertical-scroll-proportion="0.65">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRules.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="65" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRulesTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="258" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Feedback.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="86" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,17 +180,24 @@
         <option value="$PROJECT_DIR$/src/io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/io.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/IOTest.java" />
-        <option value="$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/Feedback.java" />
-        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/Game.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Main.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/SecretCode.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Game.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/GameRules.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
+    <option name="width" value="1920" />
     <option name="height" value="1174" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -242,91 +287,31 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mastermind_java" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.SecretCodeTest">
-    <configuration default="false" name="FeedbackTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SecretCodeTest.testSecretCodeShouldBe4" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.SecretCodeTest" />
-      <option name="METHOD_NAME" value="testSecretCodeShouldBe4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SecretCodeTest.testSecretCodeShouldContainOnlyAvailableSymbols" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.SecretCodeTest" />
-      <option name="METHOD_NAME" value="testSecretCodeShouldContainOnlyAvailableSymbols" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.GameRulesTest">
     <configuration default="false" name="SecretCodeTest.test" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="mastermind_java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -380,6 +365,78 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IoTest.testDisplay" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.IoTest" />
+      <option name="METHOD_NAME" value="testDisplay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameRulesTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.GameRulesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -439,19 +496,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.testSecretCodeShouldBe4" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.testSecretCodeShouldContainOnlyAvailableSymbols" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IoTest.testDisplay" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.testSecretCodeShouldContainOnlyAvailableSymbols" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.testSecretCodeShouldBe4" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IoTest.testDisplay" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -470,27 +527,27 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1174" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328585" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.103393845" sideWeight="0.67141503" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13811281" sideWeight="0.67172676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39981008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -554,58 +611,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Arrays.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.119617224">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.119617224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mastermind_java.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="0" selection-start="8673" selection-end="8673" vertical-scroll-proportion="0.94074076">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="370" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="86" selection-start="1394" selection-end="1437" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="130" selection-end="246" vertical-scroll-proportion="0.2074074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="15" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="51" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+        <state line="26" column="5" selection-start="350" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="304" selection-end="304" vertical-scroll-proportion="0.23703703">
+        <state line="45" column="86" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="258" selection-end="277" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="31" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="909" selection-end="909" vertical-scroll-proportion="0.65">
+          <folding />
         </state>
       </provider>
     </entry>

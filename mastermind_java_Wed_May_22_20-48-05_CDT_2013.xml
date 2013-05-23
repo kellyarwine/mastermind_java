@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mastermind_java" default="all">
+  
+  
+  <property file="mastermind_java.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.pyc/**"/>
+    <exclude name="**/.pyo/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/*.lib/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/.bundle/**"/>
+    <exclude name="**/*.rbc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.zip"/>
+    <include name="*.apk"/>
+    <include name="*.war"/>
+    <include name="*.egg"/>
+    <include name="*.ear"/>
+    <include name="*.ane"/>
+    <include name="*.swc"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.6" value="${jdk.home.1.6}/bin"/>
+  <path id="jdk.classpath.1.6">
+    <fileset dir="${jdk.home.1.6}">
+      <include name="lib/deploy.jar"/>
+      <include name="lib/dt.jar"/>
+      <include name="lib/javaws.jar"/>
+      <include name="lib/jce.jar"/>
+      <include name="lib/jconsole.jar"/>
+      <include name="lib/management-agent.jar"/>
+      <include name="lib/plugin.jar"/>
+      <include name="lib/sa-jdi.jar"/>
+      <include name="../Classes/charsets.jar"/>
+      <include name="../Classes/classes.jar"/>
+      <include name="../Classes/jsse.jar"/>
+      <include name="../Classes/ui.jar"/>
+      <include name="lib/ext/apple_provider.jar"/>
+      <include name="lib/ext/dnsns.jar"/>
+      <include name="lib/ext/localedata.jar"/>
+      <include name="lib/ext/sunjce_provider.jar"/>
+      <include name="lib/ext/sunpkcs11.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.6}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.6}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.6"/>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm4-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module mastermind_java -->
+  
+  <dirname property="module.mastermind_java.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.mastermind_java" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mastermind_java" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mastermind_java" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mastermind_java" value="${compiler.args}"/>
+  
+  <property name="mastermind_java.output.dir" value="${module.mastermind_java.basedir}/out/production/mastermind_java"/>
+  <property name="mastermind_java.testoutput.dir" value="${module.mastermind_java.basedir}/out/test/mastermind_java"/>
+  
+  <path id="mastermind_java.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mastermind_java.module.production.classpath">
+    <path refid="${module.jdk.classpath.mastermind_java}"/>
+  </path>
+  
+  <path id="mastermind_java.runtime.production.module.classpath">
+    <pathelement location="${mastermind_java.output.dir}"/>
+  </path>
+  
+  <path id="mastermind_java.module.classpath">
+    <path refid="${module.jdk.classpath.mastermind_java}"/>
+    <pathelement location="${mastermind_java.output.dir}"/>
+    <pathelement location="${idea.home}/lib/junit-4.10.jar"/>
+  </path>
+  
+  <path id="mastermind_java.runtime.module.classpath">
+    <pathelement location="${mastermind_java.testoutput.dir}"/>
+    <pathelement location="${mastermind_java.output.dir}"/>
+    <pathelement location="${idea.home}/lib/junit-4.10.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mastermind_java">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mastermind_java">
+    <patternset refid="excluded.from.module.mastermind_java"/>
+  </patternset>
+  
+  <path id="mastermind_java.module.sourcepath">
+    <dirset dir="${module.mastermind_java.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="mastermind_java.module.test.sourcepath">
+    <dirset dir="${module.mastermind_java.basedir}">
+      <include name="test"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.mastermind_java" depends="compile.module.mastermind_java.production,compile.module.mastermind_java.tests" description="Compile module mastermind_java"/>
+  
+  <target name="compile.module.mastermind_java.production" depends="register.custom.compilers" description="Compile module mastermind_java; production classes">
+    <mkdir dir="${mastermind_java.output.dir}"/>
+    <javac2 destdir="${mastermind_java.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mastermind_java}/javac">
+      <compilerarg line="${compiler.args.mastermind_java}"/>
+      <bootclasspath refid="mastermind_java.module.bootclasspath"/>
+      <classpath refid="mastermind_java.module.production.classpath"/>
+      <src refid="mastermind_java.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mastermind_java"/>
+    </javac2>
+    
+    <copy todir="${mastermind_java.output.dir}">
+      <fileset dir="${module.mastermind_java.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.mastermind_java.tests" depends="register.custom.compilers,compile.module.mastermind_java.production" description="compile module mastermind_java; test classes" unless="skip.tests">
+    <mkdir dir="${mastermind_java.testoutput.dir}"/>
+    <javac2 destdir="${mastermind_java.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mastermind_java}/javac">
+      <compilerarg line="${compiler.args.mastermind_java}"/>
+      <bootclasspath refid="mastermind_java.module.bootclasspath"/>
+      <classpath refid="mastermind_java.module.classpath"/>
+      <src refid="mastermind_java.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mastermind_java"/>
+    </javac2>
+    
+    <copy todir="${mastermind_java.testoutput.dir}">
+      <fileset dir="${module.mastermind_java.basedir}/test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.mastermind_java" description="cleanup module">
+    <delete dir="${mastermind_java.output.dir}"/>
+    <delete dir="${mastermind_java.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.mastermind_java" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.mastermind_java" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

@@ -12,7 +12,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(JUnit4.class)
-public class SecretCodeTest {
+    public class SecretCodeTest {
     private SecretCode s;
 
     @Before
