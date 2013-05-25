@@ -30,6 +30,11 @@ public class IoTest {
 
     @Test
     public void test() {
+    MockDisplayer displayer = new MockDisplayer();
+    List guesses = new ArrayList();
+    Game game = new Game(displayer);
+
+    assertEquals(displayer.messages.get(1), "Display board");
 
     }
 }

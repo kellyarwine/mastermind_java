@@ -12,17 +12,12 @@ public class Feedback {
     this.guess = guess;
     this.secretCode = secretCode;
     this.feedback = new ArrayList<String>();
+
     find_exact_matches();
     find_near_matches();
     find_no_matches();
 
-    for (int i = 0; i < feedback.size(); i++) {
-      System.out.print(feedback.get(i));
-      System.out.print("\n");
-    }
-//        sort_feedback();
-
-      return feedback;
+    return feedback;
   }
 
   public void find_exact_matches() {
@@ -50,8 +45,4 @@ public class Feedback {
       feedback.add(" ");
     }
   }
-
-//    public void sort_feedback() {
-//        Arrays.sort(feedback);
-//    }
 }

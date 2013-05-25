@@ -9,7 +9,7 @@ public class Io {
   public String border = "|";
 
   private void display(String message) {
-    System.out.printf(message);
+    System.out.println(message);
   }
 
   public void displayWelcomeMessage() {

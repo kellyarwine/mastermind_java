@@ -10,7 +10,7 @@
     <file path="/SecretCode.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369257440862" ignored="false" />
     <file path="/SecretCodeTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369256988106" ignored="false" />
     <file path="/Game.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369448071701" ignored="false" />
-    <file path="/Io.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369447408409" ignored="false" />
+    <file path="/Io.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369507974316" ignored="false" />
     <file path="/build.xml" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369273847818" ignored="false" />
     <file path="/Main.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369267269705" ignored="false" />
     <file path="/IoTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369438657602" ignored="false" />
@@ -78,37 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Io.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Io.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="28" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
+            <state line="8" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.17474303">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecretCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
+      <file leaf-file-name="IoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecretCodeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="350" selection-end="618" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="723" selection-end="908" vertical-scroll-proportion="0.0">
+            <state line="27" column="42" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,96 +99,7 @@
       <file leaf-file-name="GameIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRules.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="10" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRulesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeedbackTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="417" column="50" selection-start="10060" selection-end="10060" vertical-scroll-proportion="0.85022026">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#473#481#0" expanded="true" />
-                <element signature="e#624#632#0" expanded="true" />
-                <element signature="e#791#799#0" expanded="true" />
-                <element signature="e#1056#1064#0" expanded="true" />
-                <element signature="e#1207#1215#0" expanded="true" />
-                <element signature="e#1374#1382#0" expanded="true" />
-                <element signature="e#1637#1645#0" expanded="true" />
-                <element signature="e#1788#1796#0" expanded="true" />
-                <element signature="e#1955#1963#0" expanded="true" />
-                <element signature="e#2216#2224#0" expanded="true" />
-                <element signature="e#2367#2375#0" expanded="true" />
-                <element signature="e#2534#2542#0" expanded="true" />
-                <element signature="e#2786#2794#0" expanded="true" />
-                <element signature="e#2927#2935#0" expanded="true" />
-                <element signature="e#3084#3092#0" expanded="true" />
-                <element signature="e#3335#3343#0" expanded="true" />
-                <element signature="e#3476#3484#0" expanded="true" />
-                <element signature="e#3633#3641#0" expanded="true" />
-                <element signature="e#3884#3892#0" expanded="true" />
-                <element signature="e#4025#4033#0" expanded="true" />
-                <element signature="e#4182#4190#0" expanded="true" />
-                <element signature="e#4433#4441#0" expanded="true" />
-                <element signature="e#4574#4582#0" expanded="true" />
-                <element signature="e#4731#4739#0" expanded="true" />
-                <element signature="e#4969#4977#0" expanded="true" />
-                <element signature="e#5110#5118#0" expanded="true" />
-                <element signature="e#5267#5275#0" expanded="true" />
-                <element signature="e#5529#5537#0" expanded="true" />
-                <element signature="e#5670#5678#0" expanded="true" />
-                <element signature="e#5827#5835#0" expanded="true" />
-                <element signature="e#6087#6095#0" expanded="true" />
-                <element signature="e#6228#6236#0" expanded="true" />
-                <element signature="e#6385#6393#0" expanded="true" />
-                <element signature="e#6647#6655#0" expanded="true" />
-                <element signature="e#6788#6796#0" expanded="true" />
-                <element signature="e#6945#6953#0" expanded="true" />
-                <element signature="e#7212#7220#0" expanded="true" />
-                <element signature="e#7353#7361#0" expanded="true" />
-                <element signature="e#7510#7518#0" expanded="true" />
-                <element signature="e#7778#7786#0" expanded="true" />
-                <element signature="e#7919#7927#0" expanded="true" />
-                <element signature="e#8076#8084#0" expanded="true" />
-                <element signature="e#8343#8351#0" expanded="true" />
-                <element signature="e#8504#8512#0" expanded="true" />
-                <element signature="e#8686#8694#0" expanded="true" />
-                <element signature="e#8975#8983#0" expanded="true" />
-                <element signature="e#9136#9144#0" expanded="true" />
-                <element signature="e#9318#9326#0" expanded="true" />
-                <element signature="e#9607#9615#0" expanded="true" />
-                <element signature="e#9748#9756#0" expanded="true" />
-                <element signature="e#9905#9913#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Feedback.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="41" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="220" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,7 +108,7 @@
       <file leaf-file-name="MockDisplayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/MockDisplayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="15" column="14" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -240,13 +133,13 @@
         <option value="$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/SecretCode.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java" />
-        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/example/mastermind/Io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/GameRules.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/Game.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/Feedback.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Io.java" />
       </list>
     </option>
   </component>
@@ -711,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
@@ -739,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="10" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
@@ -753,37 +632,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/MockDisplayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="28" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="723" selection-end="908" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="41" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="417" column="50" selection-start="10060" selection-end="10060" vertical-scroll-proportion="0.85022026">
+        <state line="417" column="50" selection-start="10060" selection-end="10060" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#473#481#0" expanded="true" />
@@ -838,6 +689,48 @@
             <element signature="e#9748#9756#0" expanded="true" />
             <element signature="e#9905#9913#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="723" selection-end="908" vertical-scroll-proportion="0.6740088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="220" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/MockDisplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="42" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.17474303">
+          <folding />
         </state>
       </provider>
     </entry>
