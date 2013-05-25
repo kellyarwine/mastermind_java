@@ -1,63 +1,57 @@
 package example.mastermind;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Feedback {
 
-    public String[] feedback = new String[4];
-    public String[] guess = new String[4];
-    public String[] secretCode = new String[4];
+  private ArrayList<String> feedback;
+  private ArrayList<String> guess;
+  private ArrayList<String> secretCode;
 
-    public void get(String[] passedGuess, String[] passedSecretCode) {
-        make_guess_public(passedGuess);
-        make_secret_code_public(passedSecretCode);
-        find_exact_matches();
-        find_near_matches();
-        find_no_matches();
-        sort_feedback();
-        }
+  public ArrayList<String> get(ArrayList<String> guess, ArrayList<String> secretCode) {
+    this.guess = guess;
+    this.secretCode = secretCode;
+    this.feedback = new ArrayList<String>();
+    find_exact_matches();
+    find_near_matches();
+    find_no_matches();
 
-    public void make_guess_public(String[] passedGuess) {
-        for(int i = 0; i < passedGuess.length; i++) {
-            guess[i] = passedGuess[i];
-        }
+    for (int i = 0; i < feedback.size(); i++) {
+      System.out.print(feedback.get(i));
+      System.out.print("\n");
     }
+//        sort_feedback();
 
-    public void make_secret_code_public(String[] passedSecretCode) {
-        for(int i = 0; i < passedSecretCode.length; i++) {
-            secretCode[i] = passedSecretCode[i];
-        }
-    }
+      return feedback;
+  }
 
-    public void find_exact_matches() {
-        for (int i = 0; i < guess.length; i++) {
-            if (guess[i] == secretCode[i]) {
-                    feedback[i] = "b";
-                    guess[i] = "x";
-                    secretCode[i] = "x";
-            }
-        }
+  public void find_exact_matches() {
+    for (int i = 0; i < guess.size(); i++) {
+      if (guess.get(i) == secretCode.get(i)) {
+        feedback.add("b");
+        guess.set(i, "x");
+        secretCode.set(i, "x");
+      }
     }
+  }
 
-    public void find_near_matches() {
-        for (int i = 0; i < guess.length; i++) {
-            if ( Arrays.asList(secretCode).contains(guess[i]) && guess[i] != "x" ) {
-                feedback[i] = "w";
-                int matched_symbol_index = Arrays.asList(secretCode).indexOf(guess[i]);
-                secretCode[matched_symbol_index] = "x";
-            }
-        }
+  public void find_near_matches() {
+    for (int i = 0; i < guess.size(); i++) {
+      if ( secretCode.contains(guess.get(i)) && guess.get(i) != "x" ) {
+        feedback.add("w");
+        int matched_symbol_index = secretCode.indexOf(guess.get(i));
+        secretCode.set(matched_symbol_index, "x");
+      }
     }
+  }
 
-    public void find_no_matches() {
-        for (int i = 0; i < guess.length; i++) {
-            if ( feedback[i] == null ) {
-                feedback[i] = " ";
-            }
-        }
+  public void find_no_matches() {
+    while (feedback.size() < guess.size()) {
+      feedback.add(" ");
     }
+  }
 
-    public void sort_feedback() {
-        Arrays.sort(feedback);
-    }
+//    public void sort_feedback() {
+//        Arrays.sort(feedback);
+//    }
 }

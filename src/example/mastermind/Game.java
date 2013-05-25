@@ -8,31 +8,29 @@ public class Game {
   public SecretCode secretCode = new SecretCode();
   public GameRules gameRules = new GameRules();
   public Feedback feedback = new Feedback();
-  public String[][][] moveHistory = new String[gameRules.totalMoves][][];
+  public String[][][] moveHistory = new String[gameRules.totalMoves][2][secretCode.secretCodeLength];
 
   public void startGame() {
-//    String[] guess = new String[]     {"b", "b", "b", "b"};
-//    String[] feedback = new String[]  {"w", "w", "w", " "};
-//    String[] guess2 = new String[]    {"p", "r", "o", "o"};
-//    String[] feedback2 = new String[] {" ", " ", "b", "w"};
-//
-//    String[][] move = new String[][] { {"b", "b", "b", "b"}, {"w", "w", "w", " "} };
-//    String[][] move2 = new String[][] { guess2, feedback2 };
-//
-//    String[][][] moveHistory = new String[][][] { move, move2 };
-
     gameIo.displayWelcomeMessage();
     secretCode.generate();
 //    runGame();
   }
 
 //  public void runGame() {
-//    while gameRules.gameOver(moveHistory)
-//    gameIo.displayGameboard(moveHistory);
-//    gameIo.displayMovePrompt(gameRules.totalMoves, secretCode.availableSymbols());
-//    char[] guessArray = gameIo.getGuess();
-//    String[] feedbackArray = feedback.get(guessArray,secretCode.secretCode);
-//    moveHistory[i] = new{ guessArray, feedbackArray };
+//    int i = 0;
+//    while (gameRules.gameOver(moveHistory) == true) {
+//      gameIo.displayGameboard(moveHistory);
+//      String[] guessArray = gameIo.displayMovePrompt(gameRules.totalMoves, secretCode.availableSymbols());
+//      System.out.print(Arrays.toString(secretCode.secretCode));
+//      System.out.print("\n");
+//      System.out.print(Arrays.toString(guessArray));
+//      System.out.print("\n");
+//      String[] feedbackArray = feedback.get(guessArray, secretCode.secretCode);
+//      moveHistory[i++] = new String[][] { guessArray, feedbackArray };
+//      System.out.print(Arrays.toString(feedbackArray));
+//      System.out.print("\n");
+//      System.out.print(Arrays.deepToString(moveHistory));
+//    }
 //  }
 
   public void endGame() {

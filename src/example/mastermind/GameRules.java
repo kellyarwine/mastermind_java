@@ -12,7 +12,8 @@ public class GameRules {
 
   public Boolean gameWin(String[][][] moveHistory) {
     String[] lastFeedback = moveHistory[moveHistory.length-1][1];
-    Arrays.sort(lastFeedback);
+//    if (lastFeedback != null)
+//      Arrays.sort(lastFeedback);
     return Arrays.equals(lastFeedback, new String[]{"b", "b", "b", "b"});
   }
 

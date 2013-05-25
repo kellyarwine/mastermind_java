@@ -4,20 +4,20 @@
     <list default="true" id="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" name="Default" comment="" />
     <ignored path="mastermind_java.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/FeedbackTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369178102900" ignored="false" />
-    <file path="/Feedback.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369177705569" ignored="false" />
-    <file path="/Dummy.txt" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369344538112" ignored="false" />
+    <file path="/FeedbackTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369504901206" ignored="false" />
+    <file path="/Feedback.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369506423435" ignored="false" />
+    <file path="/Dummy.txt" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369439044546" ignored="false" />
     <file path="/SecretCode.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369257440862" ignored="false" />
     <file path="/SecretCodeTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369256988106" ignored="false" />
-    <file path="/Game.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369346000510" ignored="false" />
-    <file path="/Io.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369342929562" ignored="false" />
+    <file path="/Game.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369448071701" ignored="false" />
+    <file path="/Io.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369447408409" ignored="false" />
     <file path="/build.xml" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369273847818" ignored="false" />
     <file path="/Main.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369267269705" ignored="false" />
-    <file path="/IoTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369328761441" ignored="false" />
+    <file path="/IoTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369438657602" ignored="false" />
     <file path="/a.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369324865568" ignored="false" />
     <file path="/GameRulesTest.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369347289178" ignored="false" />
-    <file path="/GameRules.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369347123256" ignored="false" />
-    <file path="/fragment.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369344538112" ignored="false" />
+    <file path="/GameRules.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369448162755" ignored="false" />
+    <file path="/fragment.java" changelist="b3b98ba4-5ff1-4c49-84f2-3a1247004e5b" time="1369439044546" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +81,8 @@
       <file leaf-file-name="Io.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="31" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="119" column="28" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,17 +91,6 @@
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="39" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,10 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="909" selection-end="909" vertical-scroll-proportion="0.65">
+            <state line="27" column="0" selection-start="723" selection-end="908" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +126,7 @@
       <file leaf-file-name="GameRules.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="65" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+            <state line="16" column="10" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,19 +136,68 @@
         <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeedbackTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FeedbackTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="258" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="417" column="50" selection-start="10060" selection-end="10060" vertical-scroll-proportion="0.85022026">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#473#481#0" expanded="true" />
+                <element signature="e#624#632#0" expanded="true" />
+                <element signature="e#791#799#0" expanded="true" />
+                <element signature="e#1056#1064#0" expanded="true" />
+                <element signature="e#1207#1215#0" expanded="true" />
+                <element signature="e#1374#1382#0" expanded="true" />
+                <element signature="e#1637#1645#0" expanded="true" />
+                <element signature="e#1788#1796#0" expanded="true" />
+                <element signature="e#1955#1963#0" expanded="true" />
+                <element signature="e#2216#2224#0" expanded="true" />
+                <element signature="e#2367#2375#0" expanded="true" />
+                <element signature="e#2534#2542#0" expanded="true" />
+                <element signature="e#2786#2794#0" expanded="true" />
+                <element signature="e#2927#2935#0" expanded="true" />
+                <element signature="e#3084#3092#0" expanded="true" />
+                <element signature="e#3335#3343#0" expanded="true" />
+                <element signature="e#3476#3484#0" expanded="true" />
+                <element signature="e#3633#3641#0" expanded="true" />
+                <element signature="e#3884#3892#0" expanded="true" />
+                <element signature="e#4025#4033#0" expanded="true" />
+                <element signature="e#4182#4190#0" expanded="true" />
+                <element signature="e#4433#4441#0" expanded="true" />
+                <element signature="e#4574#4582#0" expanded="true" />
+                <element signature="e#4731#4739#0" expanded="true" />
+                <element signature="e#4969#4977#0" expanded="true" />
+                <element signature="e#5110#5118#0" expanded="true" />
+                <element signature="e#5267#5275#0" expanded="true" />
+                <element signature="e#5529#5537#0" expanded="true" />
+                <element signature="e#5670#5678#0" expanded="true" />
+                <element signature="e#5827#5835#0" expanded="true" />
+                <element signature="e#6087#6095#0" expanded="true" />
+                <element signature="e#6228#6236#0" expanded="true" />
+                <element signature="e#6385#6393#0" expanded="true" />
+                <element signature="e#6647#6655#0" expanded="true" />
+                <element signature="e#6788#6796#0" expanded="true" />
+                <element signature="e#6945#6953#0" expanded="true" />
+                <element signature="e#7212#7220#0" expanded="true" />
+                <element signature="e#7353#7361#0" expanded="true" />
+                <element signature="e#7510#7518#0" expanded="true" />
+                <element signature="e#7778#7786#0" expanded="true" />
+                <element signature="e#7919#7927#0" expanded="true" />
+                <element signature="e#8076#8084#0" expanded="true" />
+                <element signature="e#8343#8351#0" expanded="true" />
+                <element signature="e#8504#8512#0" expanded="true" />
+                <element signature="e#8686#8694#0" expanded="true" />
+                <element signature="e#8975#8983#0" expanded="true" />
+                <element signature="e#9136#9144#0" expanded="true" />
+                <element signature="e#9318#9326#0" expanded="true" />
+                <element signature="e#9607#9615#0" expanded="true" />
+                <element signature="e#9748#9756#0" expanded="true" />
+                <element signature="e#9905#9913#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +206,16 @@
       <file leaf-file-name="Feedback.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="86" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+            <state line="48" column="41" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockDisplayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/mastermind/MockDisplayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,18 +234,19 @@
         <option value="$PROJECT_DIR$/src/io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/io.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/IOTest.java" />
-        <option value="$PROJECT_DIR$/src/example/mastermind/Feedback.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/Game.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/Main.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java" />
-        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
-        <option value="$PROJECT_DIR$/src/example/mastermind/Io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/SecretCode.java" />
-        <option value="$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java" />
-        <option value="$PROJECT_DIR$/src/example/mastermind/Game.java" />
         <option value="$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/IoTest.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Io.java" />
         <option value="$PROJECT_DIR$/src/example/mastermind/GameRules.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Game.java" />
+        <option value="$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java" />
+        <option value="$PROJECT_DIR$/src/example/mastermind/Feedback.java" />
       </list>
     </option>
   </component>
@@ -226,7 +281,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,6 +338,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,108 +354,31 @@
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mastermind_java" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.GameRulesTest">
-    <configuration default="false" name="SecretCodeTest.test" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.SecretCodeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SecretCodeTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.SecretCodeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="IoTest.testDisplay" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="mastermind_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="example.mastermind" />
-      <option name="MAIN_CLASS_NAME" value="example.mastermind.IoTest" />
-      <option name="METHOD_NAME" value="testDisplay" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FeedbackTest">
     <configuration default="false" name="FeedbackTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="mastermind_java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="example.mastermind" />
       <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -421,11 +399,77 @@
     <configuration default="false" name="GameRulesTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="mastermind_java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="example.mastermind" />
       <option name="MAIN_CLASS_NAME" value="example.mastermind.GameRulesTest" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackTest.testAllPerfectMatches" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
+      <option name="METHOD_NAME" value="testAllPerfectMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackTest.testThreePerfectMatches" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
+      <option name="METHOD_NAME" value="testThreePerfectMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackTest.test2NearMatchAnd2NoMatches" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="example.mastermind" />
+      <option name="MAIN_CLASS_NAME" value="example.mastermind.FeedbackTest" />
+      <option name="METHOD_NAME" value="test2NearMatchAnd2NoMatches" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -495,20 +539,43 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IoTest.testDisplay" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
+    <configuration default="false" name="All Tests" type="JUnit" factoryName="JUnit">
+      <module name="mastermind_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FeedbackTest.testAllPerfectMatches" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FeedbackTest.testThreePerfectMatches" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FeedbackTest.test2NearMatchAnd2NoMatches" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IoTest.testDisplay" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SecretCodeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SecretCodeTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FeedbackTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FeedbackTest.test2NearMatchAnd2NoMatches" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FeedbackTest.testThreePerfectMatches" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FeedbackTest.testAllPerfectMatches" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GameRulesTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -535,11 +602,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13811281" sideWeight="0.67172676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13811281" sideWeight="0.67267555" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39981008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32732448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -582,7 +649,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -611,20 +678,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Arrays.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.119617224" />
@@ -658,16 +711,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="350" selection-end="618" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/IoTest.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+        <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -675,57 +728,116 @@
     <entry file="file://$PROJECT_DIR$/src/example/mastermind/SecretCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="86" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/SecretCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="258" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="26" column="5" selection-start="350" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/example/mastermind/GameRulesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/mastermind/GameRules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+        <state line="16" column="10" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/MockDisplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Io.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="28" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/mastermind/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="909" selection-end="909" vertical-scroll-proportion="0.65">
+        <state line="27" column="0" selection-start="723" selection-end="908" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/mastermind/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="41" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/example/mastermind/FeedbackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="417" column="50" selection-start="10060" selection-end="10060" vertical-scroll-proportion="0.85022026">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#481#0" expanded="true" />
+            <element signature="e#624#632#0" expanded="true" />
+            <element signature="e#791#799#0" expanded="true" />
+            <element signature="e#1056#1064#0" expanded="true" />
+            <element signature="e#1207#1215#0" expanded="true" />
+            <element signature="e#1374#1382#0" expanded="true" />
+            <element signature="e#1637#1645#0" expanded="true" />
+            <element signature="e#1788#1796#0" expanded="true" />
+            <element signature="e#1955#1963#0" expanded="true" />
+            <element signature="e#2216#2224#0" expanded="true" />
+            <element signature="e#2367#2375#0" expanded="true" />
+            <element signature="e#2534#2542#0" expanded="true" />
+            <element signature="e#2786#2794#0" expanded="true" />
+            <element signature="e#2927#2935#0" expanded="true" />
+            <element signature="e#3084#3092#0" expanded="true" />
+            <element signature="e#3335#3343#0" expanded="true" />
+            <element signature="e#3476#3484#0" expanded="true" />
+            <element signature="e#3633#3641#0" expanded="true" />
+            <element signature="e#3884#3892#0" expanded="true" />
+            <element signature="e#4025#4033#0" expanded="true" />
+            <element signature="e#4182#4190#0" expanded="true" />
+            <element signature="e#4433#4441#0" expanded="true" />
+            <element signature="e#4574#4582#0" expanded="true" />
+            <element signature="e#4731#4739#0" expanded="true" />
+            <element signature="e#4969#4977#0" expanded="true" />
+            <element signature="e#5110#5118#0" expanded="true" />
+            <element signature="e#5267#5275#0" expanded="true" />
+            <element signature="e#5529#5537#0" expanded="true" />
+            <element signature="e#5670#5678#0" expanded="true" />
+            <element signature="e#5827#5835#0" expanded="true" />
+            <element signature="e#6087#6095#0" expanded="true" />
+            <element signature="e#6228#6236#0" expanded="true" />
+            <element signature="e#6385#6393#0" expanded="true" />
+            <element signature="e#6647#6655#0" expanded="true" />
+            <element signature="e#6788#6796#0" expanded="true" />
+            <element signature="e#6945#6953#0" expanded="true" />
+            <element signature="e#7212#7220#0" expanded="true" />
+            <element signature="e#7353#7361#0" expanded="true" />
+            <element signature="e#7510#7518#0" expanded="true" />
+            <element signature="e#7778#7786#0" expanded="true" />
+            <element signature="e#7919#7927#0" expanded="true" />
+            <element signature="e#8076#8084#0" expanded="true" />
+            <element signature="e#8343#8351#0" expanded="true" />
+            <element signature="e#8504#8512#0" expanded="true" />
+            <element signature="e#8686#8694#0" expanded="true" />
+            <element signature="e#8975#8983#0" expanded="true" />
+            <element signature="e#9136#9144#0" expanded="true" />
+            <element signature="e#9318#9326#0" expanded="true" />
+            <element signature="e#9607#9615#0" expanded="true" />
+            <element signature="e#9748#9756#0" expanded="true" />
+            <element signature="e#9905#9913#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

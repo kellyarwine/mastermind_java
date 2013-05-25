@@ -28,4 +28,8 @@ public class IoTest {
         assertEquals(result, a + b + c);
     }
 
+    @Test
+    public void test() {
+
+    }
 }

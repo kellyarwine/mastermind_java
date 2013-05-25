@@ -9,7 +9,7 @@ public class Io {
   public String border = "|";
 
   private void display(String message) {
-    System.out.println(message);
+    System.out.printf(message);
   }
 
   public void displayWelcomeMessage() {
@@ -21,8 +21,16 @@ public class Io {
     return scan.next();
   }
 
-  public char[] getGuess() {
-    return gets().toCharArray();
+  public String[] displayMovePrompt(int movesRemaining, String[] availableSymbols) {
+    String prompt = String.format("You have %d moves remaining.\n"
+        + "Please enter your guess from the following options:\n"
+        + "%s (Example: rgyb)\n", movesRemaining, Arrays.toString(availableSymbols));
+    display(prompt);
+    return getGuess();
+  }
+
+  public String[] getGuess() {
+    return gets().split("(?!^)");
   }
 
   public void displayInvalidInputMessage() {
@@ -39,13 +47,6 @@ public class Io {
 
   public void displayPlayAgainPrompt() {
     display("Would you like to play again? (y/n)");
-  }
-
-  public void displayMovePrompt(int movesRemaining, String[] availableSymbols) {
-    String prompt = String.format("You have %d moves remaining.\n"
-                                  + "Please enter your guess from the following options:\n"
-                                  + "%s (Example: rgyb)\n", movesRemaining, Arrays.toString(availableSymbols));
-    display(prompt);
   }
 
   public void displayGameboard(String[][][] moveHistory) {
@@ -113,9 +114,12 @@ public class Io {
       String movePart = "";
 
 
-      for (int i=0; i<part.length; i++)
-        movePart += String.format("%1$" + spacePerCharacter + "s", part[i]);
-
+      for (int i=0; i<part.length; i++) {
+        if (part[i] != null)
+          movePart += String.format("%1$" + spacePerCharacter + "s", part[i]);
+        else
+          movePart += String.format("%1$" + spacePerCharacter + "s", " ");
+      }
       return movePart;
     }
 
