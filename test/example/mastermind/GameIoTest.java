@@ -27,6 +27,26 @@ public class GameIoTest {
   }
 
   @Test
+  public void testGuessInput() {
+    assertArrayEquals(gameIo.guess(12, new String[]{ "a", "b", "c", "d", "e", "f" }, 4), new String[]{ "a", "b", "c", "d" } );
+    assertEquals(((MockIo)mockIo).messages.get(0), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+    assertEquals(((MockIo)mockIo).messages.get(1), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(2), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+  }
+
+  @Test
+  public void test2GuessInputs() {
+    assertArrayEquals(gameIo.guess(12, new String[]{ "a", "b", "c", "d", "e", "f" }, 4), new String[]{ "a", "b", "c", "d" } );
+    assertEquals(((MockIo)mockIo).messages.get(0), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+    assertEquals(((MockIo)mockIo).messages.get(1), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(2), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+    assertArrayEquals(gameIo.guess(12, new String[]{ "a", "b", "c", "d", "e", "f" }, 4), new String[]{ "a", "b", "c", "d" } );
+    assertEquals(((MockIo)mockIo).messages.get(3), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+    assertEquals(((MockIo)mockIo).messages.get(4), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(5), "You have 12 guesses remaining.\nPlease enter your guess from the following options:\n[a, b, c, d, e, f] (Example: rgyb)\n");
+  }
+
+  @Test
   public void testInvalidInputMessageDisplay() {
     gameIo.displayInvalidInputMessage();
     assertEquals(((MockIo)mockIo).messages.get(0), "Your input was invalid.  Please try again.");
@@ -38,11 +58,26 @@ public class GameIoTest {
     assertEquals(((MockIo)mockIo).messages.get(0), "Woohoo!  You win!");
   }
 
-
   @Test
   public void testLoseMessageDisplay() {
     gameIo.displayLoseMessage();
     assertEquals(((MockIo)mockIo).messages.get(0), "You lose.  Better luck next time.");
+  }
+
+  @Test
+  public void testPlayAgainInput() {
+    assertEquals(gameIo.playAgain(), "n");
+    assertEquals(((MockIo)mockIo).messages.get(0), "Would you like to play again? (y/n)\n");
+    assertEquals(((MockIo)mockIo).messages.get(1), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(2), "Would you like to play again? (y/n)\n");
+    assertEquals(((MockIo)mockIo).messages.get(3), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(4), "Would you like to play again? (y/n)\n");
+    assertEquals(((MockIo)mockIo).messages.get(5), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(6), "Would you like to play again? (y/n)\n");
+    assertEquals(((MockIo)mockIo).messages.get(7), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(8), "Would you like to play again? (y/n)\n");
+    assertEquals(((MockIo)mockIo).messages.get(9), "Your input was invalid.  Please try again.");
+    assertEquals(((MockIo)mockIo).messages.get(10), "Would you like to play again? (y/n)\n");
   }
 
   @Test
@@ -61,18 +96,5 @@ public class GameIoTest {
     assertThat(((MockIo) mockIo).messages.get(0), containsString("|      r      r      r      r       |      b      b      b      b       |\n"));
     assertThat(((MockIo) mockIo).messages.get(0), containsString(" ----------------------------------------------------------------------- \n"));
   }
-
-  @Test
-  public void testGetsGuess() {
-    assertArrayEquals(gameIo.getGuess(), new String[]{ "a", "a", "a", "a" } );
-  }
-
-  @Test
-  public void test2Guesses() {
-    assertArrayEquals(gameIo.getGuess(), new String[]{ "a", "a", "a", "a" } );
-    assertArrayEquals(gameIo.getGuess(), new String[]{ "a", "b", "c", "d" } );
-  }
-
-
 
 }

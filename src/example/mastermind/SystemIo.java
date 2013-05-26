@@ -11,7 +11,13 @@ public class SystemIo implements Io {
   }
 
   @Override
-  public String gets() {
+  public String getsGuess() {
+    Scanner scan = new Scanner(System.in);
+    return scan.next();
+  }
+
+  @Override
+  public String getsPlayAgain() {
     Scanner scan = new Scanner(System.in);
     return scan.next();
   }

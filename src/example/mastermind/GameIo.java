@@ -44,7 +44,7 @@ public class GameIo {
   }
 
   public String[] getGuess() {
-    return io.gets().split("(?!^)");
+    return io.getsGuess().split("(?!^)");
   }
 
   public Boolean validateGuess(String[] guess, String[] availableSymbols, int secretCodeLength) {
@@ -104,7 +104,7 @@ public class GameIo {
   }
 
   public String getPlayAgain() {
-    return io.gets();
+    return io.getsPlayAgain();
   }
 
   public Boolean validatePlayAgain(String response) {
