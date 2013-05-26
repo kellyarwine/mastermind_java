@@ -1,48 +1,62 @@
 package example.mastermind;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Feedback {
 
-  private ArrayList<String> feedback;
-  private ArrayList<String> guess;
-  private ArrayList<String> secretCode;
+  private String[] guess;
+  private String[] secretCode;
+  private String[] feedback;
 
-  public ArrayList<String> get(ArrayList<String> guess, ArrayList<String> secretCode) {
-    this.guess = guess;
-    this.secretCode = secretCode;
-    this.feedback = new ArrayList<String>();
-
-    find_exact_matches();
-    find_near_matches();
-    find_no_matches();
-
+  public String[] get(String[] guess, String[] secretCode) {
+    this.guess = Arrays.copyOf(guess, guess.length);
+    this.secretCode = Arrays.copyOf(secretCode, secretCode.length);
+    this.feedback = new String[this.secretCode.length];
+    findExactMatches();
+    findNearMatches();
+    findNoMatches();
+    sortFeedback();
     return feedback;
   }
 
-  public void find_exact_matches() {
-    for (int i = 0; i < guess.size(); i++) {
-      if (guess.get(i) == secretCode.get(i)) {
-        feedback.add("b");
-        guess.set(i, "x");
-        secretCode.set(i, "x");
+  private void findExactMatches() {
+    for (int i = 0; i < guess.length; i++) {
+      if (guess[i].equals(secretCode[i])) {
+        feedback[i] = "b";
+        guess[i] = "x";
+        secretCode[i] = "x";
       }
     }
   }
 
-  public void find_near_matches() {
-    for (int i = 0; i < guess.size(); i++) {
-      if ( secretCode.contains(guess.get(i)) && guess.get(i) != "x" ) {
-        feedback.add("w");
-        int matched_symbol_index = secretCode.indexOf(guess.get(i));
-        secretCode.set(matched_symbol_index, "x");
+  private void findNearMatches() {
+    for (int i = 0; i < guess.length; i++) {
+      int matchedSecretCodeIndex = secretCodeMatch(guess[i]);
+      if ( matchedSecretCodeIndex != -1 && !guess[i].equals("x") ) {
+        feedback[i] = "w";
+        secretCode[matchedSecretCodeIndex] = "x";
       }
     }
   }
 
-  public void find_no_matches() {
-    while (feedback.size() < guess.size()) {
-      feedback.add(" ");
+  private int secretCodeMatch(String guessSymbol) {
+    int matchedIndex = -1;
+    for (int i = 0; i < secretCode.length; i++) {
+      if (guessSymbol.equals(secretCode[i]))
+          matchedIndex = i;
     }
+    return matchedIndex;
+  }
+
+  private void findNoMatches() {
+    for (int i = 0; i < guess.length; i++) {
+      if ( feedback[i] == null ) {
+        feedback[i] = " ";
+      }
+    }
+  }
+
+  private void sortFeedback() {
+    Arrays.sort(feedback);
   }
 }

@@ -9,7 +9,7 @@ import java.util.List;
 //public class GameIntegrationTest extends TestCase {
 //
 ////  public void testGame() throws Exception{
-////    MockDisplayer displayer = new MockDisplayer();
+////    MockIo displayer = new MockIo();
 ////    List guesses = new ArrayList();
 ////    guesses.add("aaaa");
 //////    MockGuesser guesser = new MockGuesser(list);

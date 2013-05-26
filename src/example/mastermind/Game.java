@@ -1,40 +1,92 @@
 package example.mastermind;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Game {
 
-  public Io gameIo = new Io();
-  public SecretCode secretCode = new SecretCode();
-  public GameRules gameRules = new GameRules();
-  public Feedback feedback = new Feedback();
-  public String[][][] moveHistory = new String[gameRules.totalMoves][2][secretCode.secretCodeLength];
+  private GameIo gameIo;
+  private GameSecretCode s;
+  private GameRules r;
+  private Feedback f;
+  private ArrayList<String[][]> moveHistory;
+  private String[] guess;
+  private String[] feedback;
+
+
+  public Game(GameIo gameIo, SecretCode sc) {
+    this.gameIo = gameIo;
+    s = new GameSecretCode(sc);
+    r = new GameRules();
+    f = new Feedback();
+    moveHistory = new ArrayList<String[][]>();
+  }
+
+  public void playGame() {
+    startGame();
+    runGame();
+    endGame();
+  }
 
   public void startGame() {
-    gameIo.displayWelcomeMessage();
-    secretCode.generate();
-//    runGame();
+    displayWelcomeMessage();
+    getSecretCode();
   }
 
-//  public void runGame() {
-//    int i = 0;
-//    while (gameRules.gameOver(moveHistory) == true) {
-//      gameIo.displayGameboard(moveHistory);
-//      String[] guessArray = gameIo.displayMovePrompt(gameRules.totalMoves, secretCode.availableSymbols());
-//      System.out.print(Arrays.toString(secretCode.secretCode));
-//      System.out.print("\n");
-//      System.out.print(Arrays.toString(guessArray));
-//      System.out.print("\n");
-//      String[] feedbackArray = feedback.get(guessArray, secretCode.secretCode);
-//      moveHistory[i++] = new String[][] { guessArray, feedbackArray };
-//      System.out.print(Arrays.toString(feedbackArray));
-//      System.out.print("\n");
-//      System.out.print(Arrays.deepToString(moveHistory));
-//    }
-//  }
+  public void runGame() {
+    while (gameOver() == false) {
+      displayGameboard();
+      getGuess();
+      getFeedback();
+      saveMoveToMoveHistory();
+    }
+  }
 
   public void endGame() {
-
+    displayGameboard();
+    displayGameOutcomeMessage();
   }
 
+  public void displayWelcomeMessage() {
+    gameIo.displayWelcomeMessage();
+  }
+
+  public void getSecretCode() {
+    s.get();
+  }
+
+  public boolean gameOver() {
+    return r.gameOver(moveHistory);
+  }
+
+  public void displayGameboard() {
+    gameIo.displayGameboard(moveHistory);
+  }
+
+  public void getGuess() {
+    guess = gameIo.guess(r.totalMoves - moveHistory.size(), s.availableSymbols(), s.secretCodeLength);
+  }
+
+  public void getFeedback() {
+    feedback = f.get(guess, s.secretCode);;
+  }
+
+  public void saveMoveToMoveHistory() {
+    moveHistory.add(new String[][]{guess, feedback});
+  }
+
+  public void displayGameOutcomeMessage() {
+    if (r.gameWin(moveHistory))
+      displayWinMessage();
+    else
+      displayLoseMessage();
+  }
+
+  public void displayWinMessage() {
+    gameIo.displayWinMessage();
+  }
+
+  public void displayLoseMessage() {
+    gameIo.displayLoseMessage();
+  }
 }

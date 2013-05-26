@@ -3,6 +3,8 @@ package example.mastermind;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 public class GameRulesTest {
   private GameRules g;
 
@@ -16,7 +18,9 @@ public class GameRulesTest {
     String[][] move  = new String[][] { {"p", "p", "p", "p"}, {" ", " ", " ", " "} };
     String[][] move2 = new String[][] { {"r", "r", "r", "r"}, {"b", "b", "b", "b"} };
 
-    String[][][] moveHistory = new String[][][] { move, move2 };
+    ArrayList<String[][]> moveHistory = new ArrayList<String[][]>();
+    moveHistory.add(move);
+    moveHistory.add(move2);
 
     assert(g.gameOver(moveHistory) == true);
   }
@@ -36,7 +40,20 @@ public class GameRulesTest {
     String[][] move11 = new String[][] { {"r", "r", "r", "r"}, {" ", "b", "b", "b"} };
     String[][] move12 = new String[][] { {"r", "r", "r", "r"}, {" ", "b", "b", "b"} };
 
-    String[][][] moveHistory = new String[][][] { move, move2, move3, move4, move5, move6, move7, move8, move9, move10, move11, move12 };
+
+    ArrayList<String[][]> moveHistory = new ArrayList<String[][]>();
+    moveHistory.add(move);
+    moveHistory.add(move2);
+    moveHistory.add(move3);
+    moveHistory.add(move4);
+    moveHistory.add(move5);
+    moveHistory.add(move6);
+    moveHistory.add(move7);
+    moveHistory.add(move8);
+    moveHistory.add(move9);
+    moveHistory.add(move10);
+    moveHistory.add(move11);
+    moveHistory.add(move12);
 
     assert(g.gameOver(moveHistory) == true);
   }
@@ -56,7 +73,19 @@ public class GameRulesTest {
     String[][] move11 = new String[][] { {"r", "r", "r", "r"}, {" ", "b", "b", "b"} };
     String[][] move12 = new String[][] { {"r", "r", "r", "r"}, {"b", "b", "b", "b"} };
 
-    String[][][] moveHistory = new String[][][] { move, move2, move3, move4, move5, move6, move7, move8, move9, move10, move11, move12 };
+    ArrayList<String[][]> moveHistory = new ArrayList<String[][]>();
+    moveHistory.add(move);
+    moveHistory.add(move2);
+    moveHistory.add(move3);
+    moveHistory.add(move4);
+    moveHistory.add(move5);
+    moveHistory.add(move6);
+    moveHistory.add(move7);
+    moveHistory.add(move8);
+    moveHistory.add(move9);
+    moveHistory.add(move10);
+    moveHistory.add(move11);
+    moveHistory.add(move12);
 
     assert(g.gameOver(moveHistory) == true);
   }
@@ -66,7 +95,9 @@ public class GameRulesTest {
     String[][] move  = new String[][] { {"p", "p", "p", "p"}, {" ", " ", " ", " "} };
     String[][] move2 = new String[][] { {"r", "r", "r", "r"}, {" ", "b", "b", "b"} };
 
-    String[][][] moveHistory = new String[][][] { move, move2 };
+    ArrayList<String[][]> moveHistory = new ArrayList<String[][]>();
+    moveHistory.add(move);
+    moveHistory.add(move2);
 
     assert(g.gameOver(moveHistory) == false);
   }
