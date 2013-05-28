@@ -6,3 +6,4 @@ mastermind_java.iml
 mastermind_java.properties
 mastermind_java.xml
 .DS_Store
+.idea/
