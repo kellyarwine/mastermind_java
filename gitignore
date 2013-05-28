@@ -1,0 +1,6 @@
+build/
+out/
+build.xml
+mastermind_java.iml
+mastermind_java.properties
+mastermind_java.xml
