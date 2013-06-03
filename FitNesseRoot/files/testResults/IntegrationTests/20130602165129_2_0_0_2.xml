@@ -93,7 +93,7 @@
 		<td colspan="2">game over</td>
 	</tr>
 	<tr>
-		<td>ensure <span class="error">Method gameLose[0] not found in fixtures.PlayGame.</span></td>
+		<td>ensure <span class="error">Method gameLose[0] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2">game lose</td>
 	</tr>
 	<tr>
@@ -217,7 +217,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[ensure error(Method gameLose[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[ensure error(Method gameLose[0] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[game lose]]></col>
           
         </row>
@@ -618,16 +618,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_17, call, scriptTableActor, gameLose]]]></instruction>
-        <slimResult><![CDATA[!error:Method gameLose[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method gameLose[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_17</instructionId>
           <col>0</col>
           <row>17</row>
           <type>EnsureActionExpectation</type>
-                    <actual><![CDATA[!error:Method gameLose[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method gameLose[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[ensure]]></expected>
-                              <evaluationMessage><![CDATA[ensure error(Method gameLose[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[ensure error(Method gameLose[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

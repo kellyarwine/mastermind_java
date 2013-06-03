@@ -28,7 +28,7 @@
 	<div><pre>__EXCEPTION__:java.lang.IndexOutOfBoundsException: Index: 12, Size: 12
 	at java.util.ArrayList.rangeCheck(ArrayList.java:604)
 	at java.util.ArrayList.get(ArrayList.java:382)
-	at fixtures.PlayGame.expectedFeedbackCorrect(PlayGame.java:90)
+	at fixtures.PlayGameTest.expectedFeedbackCorrect(PlayGame.java:90)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

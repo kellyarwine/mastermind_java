@@ -29,7 +29,7 @@
 		<td colspan="2"><span class="pass">play game</span></td>
 	</tr>
 	<tr>
-		<td>start game <span class="error">Method startGame[1] not found in fixtures.PlayGame.</span></td>
+		<td>start game <span class="error">Method startGame[1] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2"></td>
 	</tr>
 	<tr>
@@ -43,17 +43,17 @@
 		<td>guess</td>
 	</tr>
 	<tr>
-		<td>ensure <span class="error">Method gameOver[1] not found in fixtures.PlayGame.</span></td>
+		<td>ensure <span class="error">Method gameOver[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>game over</td>
 		<td>true</td>
 	</tr>
 	<tr>
-		<td>ensure <span class="error">Method gameWin[1] not found in fixtures.PlayGame.</span></td>
+		<td>ensure <span class="error">Method gameWin[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>game win</td>
 		<td>true</td>
 	</tr>
 	<tr>
-		<td>show <span class="error">Method numberOfGuesses[1] not found in fixtures.PlayGame.</span></td>
+		<td>show <span class="error">Method numberOfGuesses[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>number of guesses</td>
 		<td></td>
 	</tr>
@@ -82,7 +82,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[]]></col>
           
         </row>
@@ -99,19 +99,19 @@
           
         </row>
                 <row>
-                    <col><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[game over]]></col>
                     <col><![CDATA[true]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[game win]]></col>
                     <col><![CDATA[true]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[number of guesses]]></col>
                     <col><![CDATA[]]></col>
           
@@ -145,7 +145,7 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, startGame, ]]]></instruction>
-        <slimResult><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_1</instructionId>
@@ -160,9 +160,9 @@
           <col>0</col>
           <row>1</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[start game]]></expected>
-                              <evaluationMessage><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
@@ -214,16 +214,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, gameOver, true]]]></instruction>
-        <slimResult><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_4</instructionId>
           <col>0</col>
           <row>4</row>
           <type>EnsureActionExpectation</type>
-                    <actual><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[ensure]]></expected>
-                              <evaluationMessage><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
                 <expectation>
           <status>ignored</status>
@@ -237,16 +237,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, gameWin, true]]]></instruction>
-        <slimResult><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_5</instructionId>
           <col>0</col>
           <row>5</row>
           <type>EnsureActionExpectation</type>
-                    <actual><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[ensure]]></expected>
-                              <evaluationMessage><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
                 <expectation>
           <status>ignored</status>
@@ -260,16 +260,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, numberOfGuesses, ]]]></instruction>
-        <slimResult><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_6</instructionId>
           <col>0</col>
           <row>6</row>
           <type>ShowActionExpectation</type>
-                    <actual><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[show]]></expected>
-                              <evaluationMessage><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
                 <expectation>
           <status>ignored</status>

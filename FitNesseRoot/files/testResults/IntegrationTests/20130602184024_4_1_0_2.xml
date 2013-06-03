@@ -132,7 +132,7 @@
 		<td colspan="2"><span class="pass">0</span></td>
 	</tr>
 	<tr>
-		<td>show <span class="error">Method feedback[0] not found in fixtures.PlayGame.</span></td>
+		<td>show <span class="error">Method feedback[0] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="3">feedback</td>
 	</tr>
 </table>
@@ -282,7 +282,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[show error(Method feedback[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[show error(Method feedback[0] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[feedback]]></col>
           
         </row>
@@ -800,16 +800,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_20, call, scriptTableActor, feedback]]]></instruction>
-        <slimResult><![CDATA[!error:Method feedback[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method feedback[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_20</instructionId>
           <col>0</col>
           <row>20</row>
           <type>ShowActionExpectation</type>
-                    <actual><![CDATA[!error:Method feedback[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method feedback[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[show]]></expected>
-                              <evaluationMessage><![CDATA[show error(Method feedback[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[show error(Method feedback[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

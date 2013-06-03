@@ -31,7 +31,7 @@
 	at example.mastermind.Game.getSecretCode(Game.java:54)
 	at example.mastermind.Game.startGame(Game.java:32)
 	at example.mastermind.Game.playGame(Game.java:25)
-	at fixtures.PlayGame.startGame(PlayGame.java:34)
+	at fixtures.PlayGameTest.startGame(PlayGame.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,15 +72,15 @@
 		<td colspan="2">aaac</td>
 	</tr>
 	<tr>
-		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGame.</span></td>
+		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2">aaaa</td>
 	</tr>
 	<tr>
-		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGame.</span></td>
+		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2">aaab</td>
 	</tr>
 	<tr>
-		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGame.</span></td>
+		<td>guess <span class="error">Method guess[1] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2">aaac</td>
 	</tr>
 	<tr>
@@ -139,17 +139,17 @@
           
         </row>
                 <row>
-                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaab]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaac]]></col>
           
         </row>
@@ -250,7 +250,7 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, guess, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_3</instructionId>
@@ -265,15 +265,15 @@
           <col>0</col>
           <row>3</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[guess]]></expected>
-                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, guess, aaab]]]></instruction>
-        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_4</instructionId>
@@ -288,15 +288,15 @@
           <col>0</col>
           <row>4</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[guess]]></expected>
-                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, guess, aaac]]]></instruction>
-        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_5</instructionId>
@@ -311,9 +311,9 @@
           <col>0</col>
           <row>5</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method guess[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[guess]]></expected>
-                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[guess error(Method guess[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

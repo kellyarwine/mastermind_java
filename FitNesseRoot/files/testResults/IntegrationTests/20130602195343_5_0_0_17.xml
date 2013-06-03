@@ -26,7 +26,7 @@
 <br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_14"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_14</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,7 +57,7 @@
 <a name="scriptTable_1_7"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_7</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,7 +88,7 @@
 <a name="scriptTable_1_13"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_13</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,7 +119,7 @@
 <a name="scriptTable_1_6"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_6</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,7 +150,7 @@
 <a name="scriptTable_1_9"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_9</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,7 +181,7 @@
 <a name="scriptTable_1_8"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_8</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -212,7 +212,7 @@
 <a name="scriptTable_1_3"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_3</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -243,7 +243,7 @@
 <a name="scriptTable_1_10"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_10</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -274,7 +274,7 @@
 <a name="scriptTable_1_2"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_2</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -305,7 +305,7 @@
 <a name="scriptTable_1_12"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_12</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -336,7 +336,7 @@
 <a name="scriptTable_1_5"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_5</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -367,7 +367,7 @@
 <a name="scriptTable_1_11"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_11</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -398,7 +398,7 @@
 <a name="scriptTable_1_4"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
 	<p class="title">scriptTable_1_4</p>
 	<div><pre>__EXCEPTION__:java.lang.NullPointerException
-	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:32)
+	at fixtures.PlayGameTest.setGuessAndExpectedFeedback(PlayGame.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -541,11 +541,11 @@
 		<td colspan="2"><span class="pass">1</span></td>
 	</tr>
 	<tr>
-		<td>show <span class="error">Method actualFeedback[0] not found in fixtures.PlayGame.</span></td>
+		<td>show <span class="error">Method actualFeedback[0] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="3">actual Feedback</td>
 	</tr>
 	<tr>
-		<td>show <span class="error">Method expectedFeedback[0] not found in fixtures.PlayGame.</span></td>
+		<td>show <span class="error">Method expectedFeedback[0] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="3">expected Feedback</td>
 	</tr>
 </table>
@@ -702,12 +702,12 @@
           
         </row>
                 <row>
-                    <col><![CDATA[show error(Method actualFeedback[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[show error(Method actualFeedback[0] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[actual Feedback]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[show error(Method expectedFeedback[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[show error(Method expectedFeedback[0] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[expected Feedback]]></col>
           
         </row>
@@ -1256,31 +1256,31 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_21, call, scriptTableActor, actualFeedback]]]></instruction>
-        <slimResult><![CDATA[!error:Method actualFeedback[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method actualFeedback[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_21</instructionId>
           <col>0</col>
           <row>21</row>
           <type>ShowActionExpectation</type>
-                    <actual><![CDATA[!error:Method actualFeedback[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method actualFeedback[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[show]]></expected>
-                              <evaluationMessage><![CDATA[show error(Method actualFeedback[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[show error(Method actualFeedback[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_22, call, scriptTableActor, expectedFeedback]]]></instruction>
-        <slimResult><![CDATA[!error:Method expectedFeedback[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method expectedFeedback[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_22</instructionId>
           <col>0</col>
           <row>22</row>
           <type>ShowActionExpectation</type>
-                    <actual><![CDATA[!error:Method expectedFeedback[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method expectedFeedback[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[show]]></expected>
-                              <evaluationMessage><![CDATA[show error(Method expectedFeedback[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[show error(Method expectedFeedback[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

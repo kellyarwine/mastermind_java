@@ -35,7 +35,7 @@
 	at example.mastermind.Game.getGuess(Game.java:66)
 	at example.mastermind.Game.runGame(Game.java:38)
 	at example.mastermind.Game.playGame(Game.java:26)
-	at fixtures.PlayGame.startGame(PlayGame.java:35)
+	at fixtures.PlayGameTest.startGame(PlayGame.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

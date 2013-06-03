@@ -29,7 +29,7 @@
 		<td><span class="pass">play game</span></td>
 	</tr>
 	<tr>
-		<td colspan="2">start game <span class="error">Method startGame[0] not found in fixtures.PlayGame.</span></td>
+		<td colspan="2">start game <span class="error">Method startGame[0] not found in fixtures.PlayGameTest.</span></td>
 	</tr>
 	<tr>
 		<td>set secret code</td>
@@ -96,7 +96,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[start game error(Method startGame[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[start game error(Method startGame[0] not found in fixtures.PlayGameTest.)]]></col>
           
         </row>
                 <row>
@@ -182,16 +182,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, startGame]]]></instruction>
-        <slimResult><![CDATA[!error:Method startGame[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method startGame[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_1</instructionId>
           <col>0</col>
           <row>1</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method startGame[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method startGame[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[start game]]></expected>
-                              <evaluationMessage><![CDATA[start game error(Method startGame[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[start game error(Method startGame[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

@@ -35,7 +35,7 @@
 	at example.mastermind.Game.getGuess(Game.java:66)
 	at example.mastermind.Game.runGame(Game.java:38)
 	at example.mastermind.Game.playGame(Game.java:26)
-	at fixtures.PlayGame.startGame(PlayGame.java:36)
+	at fixtures.PlayGameTest.startGame(PlayGame.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,62 +73,62 @@
 		<td colspan="2">aaac</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
 	<tr>
-		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.</span></td>
+		<td>set guess and expected feedback <span class="error">Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>aaaa</td>
 		<td>bbb</td>
 	</tr>
@@ -136,7 +136,7 @@
 		<td colspan="3">start game</td>
 	</tr>
 	<tr>
-		<td>ensure <span class="error">Method expectedFeedbackCorrect[0] not found in fixtures.PlayGame.</span></td>
+		<td>ensure <span class="error">Method expectedFeedbackCorrect[0] not found in fixtures.PlayGameTest.</span></td>
 		<td colspan="2">expected feedback correct</td>
 	</tr>
 	<tr>
@@ -189,73 +189,73 @@
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
         </row>
                 <row>
-                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[aaaa]]></col>
                     <col><![CDATA[bbb]]></col>
           
@@ -265,7 +265,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[ensure error(Method expectedFeedbackCorrect[0] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[ensure error(Method expectedFeedbackCorrect[0] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[expected feedback correct]]></col>
           
         </row>
@@ -345,7 +345,7 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_2</instructionId>
@@ -360,15 +360,15 @@
           <col>0</col>
           <row>2</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_3</instructionId>
@@ -383,15 +383,15 @@
           <col>0</col>
           <row>3</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_4</instructionId>
@@ -406,15 +406,15 @@
           <col>0</col>
           <row>4</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_5</instructionId>
@@ -429,15 +429,15 @@
           <col>0</col>
           <row>5</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_6</instructionId>
@@ -452,15 +452,15 @@
           <col>0</col>
           <row>6</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_7</instructionId>
@@ -475,15 +475,15 @@
           <col>0</col>
           <row>7</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_8</instructionId>
@@ -498,15 +498,15 @@
           <col>0</col>
           <row>8</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_9, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_9</instructionId>
@@ -521,15 +521,15 @@
           <col>0</col>
           <row>9</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_10, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_10</instructionId>
@@ -544,15 +544,15 @@
           <col>0</col>
           <row>10</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_11, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_11</instructionId>
@@ -567,15 +567,15 @@
           <col>0</col>
           <row>11</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_12, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_12</instructionId>
@@ -590,15 +590,15 @@
           <col>0</col>
           <row>12</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_13, call, scriptTableActor, setGuessAndExpectedFeedbackBbb, aaaa]]]></instruction>
-        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_13</instructionId>
@@ -613,9 +613,9 @@
           <col>0</col>
           <row>13</row>
           <type>ScriptActionExpectation</type>
-                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[set guess and expected feedback]]></expected>
-                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[set guess and expected feedback error(Method setGuessAndExpectedFeedbackBbb[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>
@@ -636,16 +636,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_15, call, scriptTableActor, expectedFeedbackCorrect]]]></instruction>
-        <slimResult><![CDATA[!error:Method expectedFeedbackCorrect[0] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method expectedFeedbackCorrect[0] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_15</instructionId>
           <col>0</col>
           <row>15</row>
           <type>EnsureActionExpectation</type>
-                    <actual><![CDATA[!error:Method expectedFeedbackCorrect[0] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method expectedFeedbackCorrect[0] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[ensure]]></expected>
-                              <evaluationMessage><![CDATA[ensure error(Method expectedFeedbackCorrect[0] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[ensure error(Method expectedFeedbackCorrect[0] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
         
       </instructionResult>

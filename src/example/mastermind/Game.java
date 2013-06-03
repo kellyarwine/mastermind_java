@@ -67,7 +67,7 @@ public class Game {
   }
 
   public void getFeedback() {
-    feedback = f.get(guess, s.secretCode);;
+    feedback = f.get(guess, s.secretCode);
   }
 
   public void saveMoveToMoveHistory() {

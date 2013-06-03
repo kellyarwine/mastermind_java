@@ -31,7 +31,7 @@
 	at example.mastermind.Game.getSecretCode(Game.java:54)
 	at example.mastermind.Game.startGame(Game.java:32)
 	at example.mastermind.Game.playGame(Game.java:25)
-	at fixtures.PlayGame.startGame(PlayGame.java:34)
+	at fixtures.PlayGameTest.startGame(PlayGame.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,7 +89,7 @@
 		<td>[false] <span class="fail">expected [true]</span></td>
 	</tr>
 	<tr>
-		<td>ensure <span class="error">Method gameWin[1] not found in fixtures.PlayGame.</span></td>
+		<td>ensure <span class="error">Method gameWin[1] not found in fixtures.PlayGameTest.</span></td>
 		<td>game win</td>
 		<td>true</td>
 	</tr>
@@ -164,7 +164,7 @@
           
         </row>
                 <row>
-                    <col><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGameTest.)]]></col>
                     <col><![CDATA[game win]]></col>
                     <col><![CDATA[true]]></col>
           
@@ -344,16 +344,16 @@
       </instructionResult>
             <instructionResult>
         <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, gameWin, true]]]></instruction>
-        <slimResult><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></slimResult>
+        <slimResult><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGameTest.]]></slimResult>
                 <expectation>
           <status>ignored</status>
           <instructionId>scriptTable_1_7</instructionId>
           <col>0</col>
           <row>7</row>
           <type>EnsureActionExpectation</type>
-                    <actual><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></actual>
+                    <actual><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGameTest.]]></actual>
                               <expected><![CDATA[ensure]]></expected>
-                              <evaluationMessage><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                              <evaluationMessage><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGameTest.)]]></evaluationMessage>
                   </expectation>
                 <expectation>
           <status>ignored</status>
