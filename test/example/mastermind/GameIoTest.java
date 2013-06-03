@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertArrayEquals;
@@ -16,28 +17,35 @@ public class GameIoTest {
 
   @Before
   public void setUp() {
-    String guess1  = "azza";
-    String guess2  = "abcd";
-    String guess3  = "aaag";
-    String guess4  = "abcd";
-    String guess5  = "abcd";
-    String guess6  = "abcd";
-    String guess7  = "abcd";
-    String guess8  = "abcd";
-    String guess9  = "abcd";
-    String guess10 = "abcd";
-    String guess11 = "abcd";
-    String guess12 = "aaaa";
-    String[] guesses = new String[] { guess1, guess2, guess3, guess4, guess5, guess6, guess7, guess8, guess9, guess10, guess11, guess12 };
+    String secretCode = "aabb";
 
+    List<String> guesses = new ArrayList<String>();
+    guesses.add("azza");
+    guesses.add("abcd");
+    guesses.add("aaag");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("abcd");
+    guesses.add("aaaa");
 
-    String playAgain1  = "yes";
-    String playAgain2  = "no";
-    String playAgain3  = ".";
-    String playAgain4  = "AAA";
-    String playAgain5  = "rrr";
-    String playAgain6  = "N";
-    String[] playAgainResponses = new String[] { playAgain1, playAgain2, playAgain3, playAgain4, playAgain5, playAgain6 };
+    List<String> playAgainResponses = new ArrayList<String>();
+    playAgainResponses.add("yes");
+    playAgainResponses.add("n.");
+    playAgainResponses.add(".");
+    playAgainResponses.add("Ny");
+    playAgainResponses.add("yy");
+    playAgainResponses.add("N");
+    playAgainResponses.add("abcd");
+    playAgainResponses.add("abcd");
+    playAgainResponses.add("abcd");
+    playAgainResponses.add("abcd");
+    playAgainResponses.add("abcd");
+    playAgainResponses.add("aaaa");
 
     mockIo = new MockIo(guesses, playAgainResponses);
     gameIo = new GameIo(mockIo);

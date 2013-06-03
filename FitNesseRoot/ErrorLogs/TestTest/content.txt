@@ -1,0 +1,7 @@
+!3 !-slim-!
+|'''Date: '''| 3:19:39 PM (CDT) on Friday, May 31, 2013 |
+|'''Test Page: '''|.TestTest|
+|'''Command: '''| !-java -cp fitnesse.jar:/Users/Kelly/Desktop/Test/build/classes:/Users/Kelly/Desktop/fitnesse-standalone.jar fitnesse.slim.SlimService  8089-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.338 seconds |
+

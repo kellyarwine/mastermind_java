@@ -2,7 +2,6 @@ package example.mastermind;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class GameIo {
 
@@ -48,10 +47,7 @@ public class GameIo {
   }
 
   public Boolean validateGuess(String[] guess, String[] availableSymbols, int secretCodeLength) {
-    if ( guess.length == secretCodeLength && compareAvailableSymbolsToGuesses(availableSymbols, guess) )
-      return true;
-    else
-      return false;
+    return guess.length == secretCodeLength && compareAvailableSymbolsToGuesses(availableSymbols, guess);
   }
 
   private Boolean compareAvailableSymbolsToGuesses(String[] validResponses, String[] response) {

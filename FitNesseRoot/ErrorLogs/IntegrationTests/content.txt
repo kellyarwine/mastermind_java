@@ -1,0 +1,7 @@
+!3 !-slim-!
+|'''Date: '''| 8:41:26 PM (CDT) on Sunday, June 2, 2013 |
+|'''Test Page: '''|.IntegrationTests|
+|'''Command: '''| !-java -cp fitnesse.jar:/Users/Kelly/Desktop/mastermind_java/build/classes:/Users/Kelly/Desktop/fitnesse-standalone.jar fitnesse.slim.SlimService  8092-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.407 seconds |
+

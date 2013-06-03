@@ -1,22 +1,21 @@
 package example.mastermind;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Game {
 
-  private GameIo gameIo;
-  private GameSecretCode s;
-  private GameRules r;
-  private Feedback f;
-  private ArrayList<String[][]> moveHistory;
-  private String[] guess;
-  private String[] feedback;
+  public GameIo gameIo;
+  public GameSecretCode s;
+  public GameRules r;
+  public Feedback f;
+  public ArrayList<String[][]> moveHistory;
+  public String[] guess;
+  public String[] feedback;
 
 
   public Game(GameIo gameIo, SecretCode sc) {
     this.gameIo = gameIo;
-    s = new GameSecretCode(sc);
+    this.s = new GameSecretCode(sc);
     r = new GameRules();
     f = new Feedback();
     moveHistory = new ArrayList<String[][]>();

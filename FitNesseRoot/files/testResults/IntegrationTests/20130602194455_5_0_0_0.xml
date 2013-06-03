@@ -1,0 +1,856 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>IntegrationTests</rootPath>
+    <result>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>89</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=633876803876933605>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=5717435859493603456>
+	<tr>
+		<td>script</td>
+		<td colspan="3"><span class="pass">play game</span></td>
+	</tr>
+	<tr>
+		<td>set secret code</td>
+		<td colspan="3">aaac</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbby</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbbx</td>
+	</tr>
+	<tr>
+		<td colspan="4">start game</td>
+	</tr>
+	<tr>
+		<td><span class="pass">ensure</span></td>
+		<td colspan="3">expected feedback correct</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game over</td>
+		<td colspan="2"><span class="pass">true</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game win</td>
+		<td colspan="2"><span class="pass">false</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of guesses made</td>
+		<td colspan="2"><span class="pass">12</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of invalid moves made</td>
+		<td colspan="2"><span class="pass">0</span></td>
+	</tr>
+	<tr>
+		<td>show</td>
+		<td colspan="3">actual Feedback</td>
+	<td>[b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x]</td></tr>
+	<tr>
+		<td>show</td>
+		<td colspan="3">expected Feedback</td>
+	<td>[b, b, b, x]</td></tr>
+</table>
+]]></content>
+    <relativePageName>IntegrationTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(play game)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set secret code]]></col>
+                    <col><![CDATA[aaac]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbby]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbbx]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start game]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[expected feedback correct]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game over]]></col>
+                    <col><![CDATA[pass(true)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game win]]></col>
+                    <col><![CDATA[pass(false)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[number of guesses made]]></col>
+                    <col><![CDATA[pass(12)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[number of invalid moves made]]></col>
+                    <col><![CDATA[pass(0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[actual Feedback]]></col>
+                    <col><![CDATA[[b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x]]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[expected Feedback]]></col>
+                    <col><![CDATA[[b, b, b, x]]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, PlayGame]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[play game]]></expected>
+                              <evaluationMessage><![CDATA[pass(play game)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, setSecretCode, aaac]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set secret code]]></expected>
+                              <evaluationMessage><![CDATA[set secret code]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbby]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>3</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>3</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>3</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>3</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>3</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_9, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>3</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_10, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>1</col>
+          <row>10</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>3</col>
+          <row>10</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_11, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>1</col>
+          <row>11</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>3</col>
+          <row>11</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_12, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>1</col>
+          <row>12</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>3</col>
+          <row>12</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>0</col>
+          <row>12</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_13, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbbx]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>1</col>
+          <row>13</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>3</col>
+          <row>13</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>0</col>
+          <row>13</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_14, call, scriptTableActor, startGame]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_14</instructionId>
+          <col>0</col>
+          <row>14</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[start game]]></expected>
+                              <evaluationMessage><![CDATA[start game]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_15, call, scriptTableActor, expectedFeedbackCorrect]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_15</instructionId>
+          <col>0</col>
+          <row>15</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_16, call, scriptTableActor, gameOver]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_16</instructionId>
+          <col>2</col>
+          <row>16</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[pass(true)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_17, call, scriptTableActor, gameWin]]]></instruction>
+        <slimResult><![CDATA[false]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_17</instructionId>
+          <col>2</col>
+          <row>17</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[false]]></actual>
+                              <expected><![CDATA[false]]></expected>
+                              <evaluationMessage><![CDATA[pass(false)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_18, call, scriptTableActor, numberOfGuessesMade]]]></instruction>
+        <slimResult><![CDATA[12]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_18</instructionId>
+          <col>2</col>
+          <row>18</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[12]]></actual>
+                              <expected><![CDATA[12]]></expected>
+                              <evaluationMessage><![CDATA[pass(12)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_19, call, scriptTableActor, numberOfInvalidMovesMade]]]></instruction>
+        <slimResult><![CDATA[0]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_19</instructionId>
+          <col>2</col>
+          <row>19</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[0]]></actual>
+                              <expected><![CDATA[0]]></expected>
+                              <evaluationMessage><![CDATA[pass(0)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_20, call, scriptTableActor, actualFeedback]]]></instruction>
+        <slimResult><![CDATA[[b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_20</instructionId>
+          <col>0</col>
+          <row>20</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[[b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x][b, b, b, x]]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_21, call, scriptTableActor, expectedFeedback]]]></instruction>
+        <slimResult><![CDATA[[b, b, b, x]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_21</instructionId>
+          <col>0</col>
+          <row>21</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[[b, b, b, x]]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

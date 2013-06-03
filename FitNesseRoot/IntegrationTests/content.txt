@@ -1,0 +1,57 @@
+!define TEST_SYSTEM {slim}
+!path /Users/Kelly/Desktop/mastermind_java/build/classes
+!path /Users/Kelly/Desktop/fitnesse-standalone.jar
+
+!|import|
+|fixtures|
+
+!|script|play game|
+|set secret code|aaac|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|acdg|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|set guess|aaaa|and expected feedback|bbbx|
+|start game|
+|ensure|expected feedback correct|
+|check|game over|true|
+|check|game win|false|
+|check|number of guesses made|12|
+|check|number of invalid moves made|3|
+
+
+!|script|play game|
+|set secret code|cccc|
+|set guess|aaaa|and expected feedback|xxxx|
+|set guess|aaa|and expected feedback|bbbx|
+|set guess|cccd|and expected feedback|bbbx|
+|set guess|cccc|and expected feedback|bbbb|
+|start game|
+|ensure|expected feedback correct|
+|check|game over|true|
+|check|game win|true|
+|check|number of guesses made|3|
+|check|number of invalid moves made|1|
+
+!|script|play game|
+|set secret code|ddbb|
+|set guess|aaaa|and expected feedback|xxxx|
+|set guess|bbdd|and expected feedback|wwww|
+|set guess|dbdb|and expected feedback|bbww|
+|set guess|ddbb|and expected feedback|bbbb|
+|start game|
+|ensure|expected feedback correct|
+|check|game over|true|
+|check|game win|true|
+|check|number of guesses made|4|
+|check|number of invalid moves made|0|

@@ -1,20 +1,21 @@
 package example.mastermind;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MockIo implements Io {
 
-  public ArrayList<String> messages;
-  public String[] guesses;
+  public List<String> messages;
+  public List<String> guesses;
+  public List<String> playAgainResponses;
   private int guessIndex;
-  public String[] playAgainResponses;
   private int playAgainIndex;
 
-  public MockIo(String[] guesses, String[] playAgainResponses) {
-    this.messages = new ArrayList();
+  public MockIo(List<String> guesses, List<String> playAgainResponses) {
+    messages = new ArrayList<String>();
 
-    this.guesses = guesses;
     guessIndex = 0;
+    this.guesses = guesses;
 
     this.playAgainResponses = playAgainResponses;
     playAgainIndex = 0;
@@ -22,17 +23,17 @@ public class MockIo implements Io {
 
   @Override
   public void display(String message) {
-    this.messages.add(message);
+    messages.add(message);
   }
 
   @Override
   public String getsGuess() {
-    return guesses[guessIndex++];
+    return guesses.get(guessIndex++);
   }
 
   @Override
   public String getsPlayAgain() {
-    return playAgainResponses[playAgainIndex++];
+    return playAgainResponses.get(playAgainIndex++);
   }
 
 }

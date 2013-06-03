@@ -1,0 +1,11 @@
+!3 !-slim-!
+|'''Date: '''| 3:35:10 PM (CDT) on Thursday, May 30, 2013 |
+|'''Test Page: '''|.MastermindIntegrationTests|
+|'''Command: '''| !-java -cp fitnesse.jar:/Users/Kelly/Desktop/FitnesseProject/build/production/FitnesseProject fitnesse.slim.SlimService  8093-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 5.217 seconds |
+
+----
+'''Standard Error:'''
+{{{ Error: Could not find or load main class fitnesse.slim.SlimService
+ }}}

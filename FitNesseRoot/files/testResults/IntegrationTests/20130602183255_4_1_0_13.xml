@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>IntegrationTests</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>13</exceptions>
+    </counts>
+    <runTimeInMillis>102</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=5957793483095390532>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_7"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_7</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_13"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_13</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_6"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_6</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_9"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_9</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_15"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_15</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.expectedFeedbackCorrect(PlayGame.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_8"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_8</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_3"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_3</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_10"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_10</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_2"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_2</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_12"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_12</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_5"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_5</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_11"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_11</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+<a name="scriptTable_1_4"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_4</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at fixtures.PlayGame.setGuessAndExpectedFeedback(PlayGame.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+</div><hr/><table _TABLENUMBER=8646100521692487380>
+	<tr>
+		<td>script</td>
+		<td colspan="3"><span class="pass">play game</span></td>
+	</tr>
+	<tr>
+		<td>set secret code</td>
+		<td colspan="3">aaac</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td>set guess</td>
+		<td>aaaa</td>
+		<td>and expected feedback</td>
+		<td>bbb</td>
+	</tr>
+	<tr>
+		<td colspan="4">start game</td>
+	</tr>
+	<tr>
+		<td><span class="fail">ensure</span></td>
+		<td colspan="3">expected feedback correct</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game over</td>
+		<td colspan="2"><span class="pass">true</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game win</td>
+		<td colspan="2"><span class="pass">false</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of guesses made</td>
+		<td colspan="2"><span class="pass">12</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>number of invalid moves made</td>
+		<td colspan="2"><span class="pass">0</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>IntegrationTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(play game)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set secret code]]></col>
+                    <col><![CDATA[aaac]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set guess]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[and expected feedback]]></col>
+                    <col><![CDATA[bbb]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start game]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fail(ensure)]]></col>
+                    <col><![CDATA[expected feedback correct]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game over]]></col>
+                    <col><![CDATA[pass(true)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game win]]></col>
+                    <col><![CDATA[pass(false)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[number of guesses made]]></col>
+                    <col><![CDATA[pass(12)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[number of invalid moves made]]></col>
+                    <col><![CDATA[pass(0)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, PlayGame]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[play game]]></expected>
+                              <evaluationMessage><![CDATA[pass(play game)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, setSecretCode, aaac]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set secret code]]></expected>
+                              <evaluationMessage><![CDATA[set secret code]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_2>scriptTable_1_2</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_3>scriptTable_1_3</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_4>scriptTable_1_4</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>3</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_4>scriptTable_1_4</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_5>scriptTable_1_5</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>3</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_5>scriptTable_1_5</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_6>scriptTable_1_6</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>3</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_6>scriptTable_1_6</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_7>scriptTable_1_7</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>3</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_7>scriptTable_1_7</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_8>scriptTable_1_8</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>3</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_8>scriptTable_1_8</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_9, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>3</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_9</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_9>scriptTable_1_9</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_10, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_10>scriptTable_1_10</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>1</col>
+          <row>10</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>3</col>
+          <row>10</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_10</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_10>scriptTable_1_10</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_11, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_11>scriptTable_1_11</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>1</col>
+          <row>11</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>3</col>
+          <row>11</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_11</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_11>scriptTable_1_11</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_12, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_12>scriptTable_1_12</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>1</col>
+          <row>12</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>3</col>
+          <row>12</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_12</instructionId>
+          <col>0</col>
+          <row>12</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_12>scriptTable_1_12</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_13, call, scriptTableActor, setGuessAndExpectedFeedback, aaaa, bbb]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_13>scriptTable_1_13</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>1</col>
+          <row>13</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>3</col>
+          <row>13</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_13</instructionId>
+          <col>0</col>
+          <row>13</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_13>scriptTable_1_13</a>]]></actual>
+                              <expected><![CDATA[set guess]]></expected>
+                              <evaluationMessage><![CDATA[set guess]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_14, call, scriptTableActor, startGame]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_14</instructionId>
+          <col>0</col>
+          <row>14</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[start game]]></expected>
+                              <evaluationMessage><![CDATA[start game]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_15, call, scriptTableActor, expectedFeedbackCorrect]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_15>scriptTable_1_15</a>]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>scriptTable_1_15</instructionId>
+          <col>0</col>
+          <row>15</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_15>scriptTable_1_15</a>]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[fail(ensure)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_16, call, scriptTableActor, gameOver]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_16</instructionId>
+          <col>2</col>
+          <row>16</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[pass(true)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_17, call, scriptTableActor, gameWin]]]></instruction>
+        <slimResult><![CDATA[false]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_17</instructionId>
+          <col>2</col>
+          <row>17</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[false]]></actual>
+                              <expected><![CDATA[false]]></expected>
+                              <evaluationMessage><![CDATA[pass(false)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_18, call, scriptTableActor, numberOfGuessesMade]]]></instruction>
+        <slimResult><![CDATA[12]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_18</instructionId>
+          <col>2</col>
+          <row>18</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[12]]></actual>
+                              <expected><![CDATA[12]]></expected>
+                              <evaluationMessage><![CDATA[pass(12)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_19, call, scriptTableActor, numberOfInvalidMovesMade]]]></instruction>
+        <slimResult><![CDATA[0]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_19</instructionId>
+          <col>2</col>
+          <row>19</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[0]]></actual>
+                              <expected><![CDATA[0]]></expected>
+                              <evaluationMessage><![CDATA[pass(0)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

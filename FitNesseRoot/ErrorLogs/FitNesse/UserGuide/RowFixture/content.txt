@@ -1,0 +1,7 @@
+!3 !-fit-!
+|'''Date: '''| 5:01:32 PM (CDT) on Sunday, June 2, 2013 |
+|'''Test Page: '''|.FitNesse.UserGuide.RowFixture|
+|'''Command: '''| !-java -cp fitnesse.jar:fitnesse-standalone.jar fit.FitServer Kellys-MacBook-Pro.local 8000 3-! |
+|'''Exit code: '''| 8 |
+|'''Time elapsed: '''| 0.429 seconds |
+

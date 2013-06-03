@@ -23,8 +23,8 @@ public class Feedback {
     for (int i = 0; i < guess.length; i++) {
       if (guess[i].equals(secretCode[i])) {
         feedback[i] = "b";
-        guess[i] = "x";
-        secretCode[i] = "x";
+        guess[i] = "z";
+        secretCode[i] = "z";
       }
     }
   }
@@ -32,9 +32,9 @@ public class Feedback {
   private void findNearMatches() {
     for (int i = 0; i < guess.length; i++) {
       int matchedSecretCodeIndex = secretCodeMatch(guess[i]);
-      if ( matchedSecretCodeIndex != -1 && !guess[i].equals("x") ) {
+      if ( matchedSecretCodeIndex != -1 && !guess[i].equals("z") ) {
         feedback[i] = "w";
-        secretCode[matchedSecretCodeIndex] = "x";
+        secretCode[matchedSecretCodeIndex] = "z";
       }
     }
   }
@@ -51,7 +51,7 @@ public class Feedback {
   private void findNoMatches() {
     for (int i = 0; i < guess.length; i++) {
       if ( feedback[i] == null ) {
-        feedback[i] = " ";
+        feedback[i] = "x";
       }
     }
   }

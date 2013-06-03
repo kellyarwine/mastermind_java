@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>FeedbackTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>25</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=8053009715264879666>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=254456423496913481>
+	<tr>
+		<td colspan="4">FitnesseGame <span class="error">Could not invoke constructor for FitnesseGame[0]</span></td>
+	</tr>
+	<tr>
+		<td>secretCode</td>
+		<td>guess</td>
+		<td>matchSecretCode?</td>
+		<td>gameOver?</td>
+	</tr>
+	<tr>
+		<td>aaaa <span class="error">The instance decisionTable_1.setSecretCode. does not exist</span></td>
+		<td>aaab <span class="error">The instance decisionTable_1.setGuess. does not exist</span></td>
+		<td>true <span class="error">The instance decisionTable_1.matchSecretCode. does not exist</span></td>
+		<td>false <span class="error">The instance decisionTable_1.gameOver. does not exist</span></td>
+	</tr>
+	<tr>
+		<td>aaaa <span class="error">The instance decisionTable_1.setSecretCode. does not exist</span></td>
+		<td>aaac <span class="error">The instance decisionTable_1.setGuess. does not exist</span></td>
+		<td>true <span class="error">The instance decisionTable_1.matchSecretCode. does not exist</span></td>
+		<td>false <span class="error">The instance decisionTable_1.gameOver. does not exist</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>FeedbackTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[FitnesseGame error(Could not invoke constructor for FitnesseGame[0])]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[secretCode]]></col>
+                    <col><![CDATA[guess]]></col>
+                    <col><![CDATA[matchSecretCode?]]></col>
+                    <col><![CDATA[gameOver?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[aaaa error(The instance decisionTable_1.setSecretCode. does not exist)]]></col>
+                    <col><![CDATA[aaab error(The instance decisionTable_1.setGuess. does not exist)]]></col>
+                    <col><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></col>
+                    <col><![CDATA[false error(The instance decisionTable_1.gameOver. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[aaaa error(The instance decisionTable_1.setSecretCode. does not exist)]]></col>
+                    <col><![CDATA[aaac error(The instance decisionTable_1.setGuess. does not exist)]]></col>
+                    <col><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></col>
+                    <col><![CDATA[false error(The instance decisionTable_1.gameOver. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, FitnesseGame]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for FitnesseGame[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for FitnesseGame[0]]]></actual>
+                              <expected><![CDATA[FitnesseGame]]></expected>
+                              <evaluationMessage><![CDATA[FitnesseGame error(Could not invoke constructor for FitnesseGame[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[secretCode, guess, matchSecretCode?, gameOver?], [aaaa, aaab, true, false], [aaaa, aaac, true, false]]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.table. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.beginTable. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.reset. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setSecretCode, aaaa]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.setSecretCode. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.setSecretCode. does not exist]]></actual>
+                              <expected><![CDATA[aaaa]]></expected>
+                              <evaluationMessage><![CDATA[aaaa error(The instance decisionTable_1.setSecretCode. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setGuess, aaab]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.setGuess. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.setGuess. does not exist]]></actual>
+                              <expected><![CDATA[aaab]]></expected>
+                              <evaluationMessage><![CDATA[aaab error(The instance decisionTable_1.setGuess. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.execute. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, matchSecretCode]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, gameOver]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.gameOver. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.gameOver. does not exist]]></actual>
+                              <expected><![CDATA[false]]></expected>
+                              <evaluationMessage><![CDATA[false error(The instance decisionTable_1.gameOver. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_9, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.reset. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_10, call, decisionTable_1, setSecretCode, aaaa]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.setSecretCode. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.setSecretCode. does not exist]]></actual>
+                              <expected><![CDATA[aaaa]]></expected>
+                              <evaluationMessage><![CDATA[aaaa error(The instance decisionTable_1.setSecretCode. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_11, call, decisionTable_1, setGuess, aaac]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.setGuess. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_11</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.setGuess. does not exist]]></actual>
+                              <expected><![CDATA[aaac]]></expected>
+                              <evaluationMessage><![CDATA[aaac error(The instance decisionTable_1.setGuess. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_12, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.execute. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_13, call, decisionTable_1, matchSecretCode]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_13</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_14, call, decisionTable_1, gameOver]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.gameOver. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.gameOver. does not exist]]></actual>
+                              <expected><![CDATA[false]]></expected>
+                              <evaluationMessage><![CDATA[false error(The instance decisionTable_1.gameOver. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_15, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.endTable. does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

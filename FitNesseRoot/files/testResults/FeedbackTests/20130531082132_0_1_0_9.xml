@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>FeedbackTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>9</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=5160203487275398338>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>example.mastermind</td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=472554352436045878>
+	<tr>
+		<td>Game <span class="error">Could not invoke constructor for Game[0]</span></td>
+	</tr>
+</table>
+<table _TABLENUMBER=9217540993646624348>
+	<tr>
+		<td>GameIo <span class="error">Could not invoke constructor for GameIo[0]</span></td>
+	</tr>
+</table>
+<table _TABLENUMBER=724022706931274794>
+	<tr>
+		<td>MockSecretCode <span class="error">Could not invoke constructor for MockSecretCode[0]</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=7350718756919301544>
+	<tr>
+		<td><span class="fail">SecretCodeLength<a title="create page" href="SecretCodeLength?edit&nonExistent=true">[?]</a>: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:28)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:350)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:332)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:319)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:258)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:128)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:112)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:88)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:60)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:190)
+	at fitnesse.responders.run.TestResponder.doExecuteTests(TestResponder.java:72)
+	at fitnesse.responders.run.TestResponder$TestExecutor.execute(TestResponder.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:260)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at fitnesse.responders.templateUtilities.HtmlPage.render(HtmlPage.java:80)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:61)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:66)
+	at fitnesse.http.ChunkedResponse.sendTo(ChunkedResponse.java:26)
+	at fitnesse.FitNesseExpediter.sendResponse(FitNesseExpediter.java:96)
+	at fitnesse.FitNesseExpediter.start(FitNesseExpediter.java:48)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:24)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:17)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:109)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></span></td>
+		<td>secretCodeLength?</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>4</td>
+	</tr>
+</table>
+<br/>public class MockSecretCodeFixture<a title="create page" href="MockSecretCodeFixture?edit&nonExistent=true">[?]</a> {<br/><br/>  public String[] secretCode = new String[] { "a", "a", "a", "a" };<br/><br/>  public String guess1  = "aaaa";<br/>  public String[] guesses = new String[] { guess1 };<br/><br/>  public String playAgain1  = "N";<br/>  public String[] playAgainResponses = new String[] { playAgain1 };<br/><br/>  public Io mockIo = new MockIo<a title="create page" href="MockIo?edit&nonExistent=true">[?]</a>(guesses, playAgainResponses);<br/>  public GameIo<a title="create page" href="GameIo?edit&nonExistent=true">[?]</a> theGameIo = new GameIo<a title="create page" href="GameIo?edit&nonExistent=true">[?]</a>(mockIo);<br/>  public Game theGame = new Game(theGameIo, new MockSecretCode<a title="create page" href="MockSecretCode?edit&nonExistent=true">[?]</a>(secretCode));<br/><br/>  theGame.playGame();<br/><br/>  public int secretCodeLength() {<br/>    secretCode.length<br/>  }<br/>} ]]></content>
+    <relativePageName>FeedbackTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[example.mastermind]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[Game error(Could not invoke constructor for Game[0])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_2</name>
+                <row>
+                    <col><![CDATA[GameIo error(Could not invoke constructor for GameIo[0])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_3</name>
+                <row>
+                    <col><![CDATA[MockSecretCode error(Could not invoke constructor for MockSecretCode[0])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_4</name>
+                <row>
+                    <col><![CDATA[<span class="fail">SecretCodeLength<a title="create page" href="SecretCodeLength?edit&nonExistent=true">[?]</a>: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:28)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:350)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:332)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:319)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:258)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:128)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:112)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:88)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:60)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:190)
+	at fitnesse.responders.run.TestResponder.doExecuteTests(TestResponder.java:72)
+	at fitnesse.responders.run.TestResponder$TestExecutor.execute(TestResponder.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:260)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at fitnesse.responders.templateUtilities.HtmlPage.render(HtmlPage.java:80)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:61)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:66)
+	at fitnesse.http.ChunkedResponse.sendTo(ChunkedResponse.java:26)
+	at fitnesse.FitNesseExpediter.sendResponse(FitNesseExpediter.java:96)
+	at fitnesse.FitNesseExpediter.start(FitNesseExpediter.java:48)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:24)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:17)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:109)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></span>]]></col>
+                    <col><![CDATA[secretCodeLength?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[4]]></col>
+                    <col><![CDATA[4]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, example.mastermind]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, Game]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for Game[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for Game[0]]]></actual>
+                              <expected><![CDATA[Game]]></expected>
+                              <evaluationMessage><![CDATA[Game error(Could not invoke constructor for Game[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, []]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.table. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_0, make, decisionTable_2, GameIo]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for GameIo[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for GameIo[0]]]></actual>
+                              <expected><![CDATA[GameIo]]></expected>
+                              <evaluationMessage><![CDATA[GameIo error(Could not invoke constructor for GameIo[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_1, call, decisionTable_2, table, []]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2.table. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_0, make, decisionTable_3, MockSecretCode]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for MockSecretCode[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_3_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for MockSecretCode[0]]]></actual>
+                              <expected><![CDATA[MockSecretCode]]></expected>
+                              <evaluationMessage><![CDATA[MockSecretCode error(Could not invoke constructor for MockSecretCode[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_1, call, decisionTable_3, table, []]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_3.table. does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

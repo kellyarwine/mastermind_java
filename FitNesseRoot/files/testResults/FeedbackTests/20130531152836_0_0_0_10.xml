@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>FeedbackTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=540201292140272333>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="decisionTable_1_0"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">decisionTable_1_0</p>
+	<div><pre>__EXCEPTION__:java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.newInstance(DefaultInteraction.java:11)
+	at fitnesse.slim.StatementExecutor.newInstance(StatementExecutor.java:170)
+	at fitnesse.slim.StatementExecutor.createInstanceOfConstructor(StatementExecutor.java:153)
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:95)
+	at fitnesse.slim.Statement.createInstance(Statement.java:93)
+	at fitnesse.slim.Statement.execute(Statement.java:73)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+Caused by: java.lang.NullPointerException
+	at example.mastermind.MockSecretCode.generate(Unknown Source)
+	at example.mastermind.GameSecretCode.get(Unknown Source)
+	at example.mastermind.Game.getSecretCode(Unknown Source)
+	at example.mastermind.Game.startGame(Unknown Source)
+	at example.mastermind.Game.playGame(Unknown Source)
+	at fixtures.TestGameFeedback.start(Unknown Source)
+	at fixtures.TestGameFeedback.&lt;init&gt;(Unknown Source)
+	... 21 more
+</pre></div>
+</div>
+</div><hr/><table _TABLENUMBER=528772994236062312>
+	<tr>
+		<td colspan="2">!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a></td>
+	</tr>
+	<tr>
+		<td>secretCodeString</td>
+		<td>matchSecretCode?</td>
+	</tr>
+	<tr>
+		<td>aaaa <span class="error">The instance decisionTable_1.setSecretCodeString. does not exist</span></td>
+		<td>true <span class="error">The instance decisionTable_1.matchSecretCode. does not exist</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>FeedbackTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[secretCodeString]]></col>
+                    <col><![CDATA[matchSecretCode?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[aaaa error(The instance decisionTable_1.setSecretCodeString. does not exist)]]></col>
+                    <col><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, FitnesseGame]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></actual>
+                              <expected><![CDATA[FitnesseGame]]></expected>
+                              <evaluationMessage><![CDATA[!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[secretCodeString, matchSecretCode?], [aaaa, true]]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.table. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.beginTable. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.reset. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setSecretCodeString, aaaa]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.setSecretCodeString. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.setSecretCodeString. does not exist]]></actual>
+                              <expected><![CDATA[aaaa]]></expected>
+                              <evaluationMessage><![CDATA[aaaa error(The instance decisionTable_1.setSecretCodeString. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.execute. does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, matchSecretCode]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1.matchSecretCode. does not exist]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[true error(The instance decisionTable_1.matchSecretCode. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1.endTable. does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

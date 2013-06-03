@@ -1,0 +1,12 @@
+!define TEST_SYSTEM {slim}
+!path /Users/Kelly/Desktop/mastermind_java/build/classes
+!path /Users/Kelly/Desktop/fitnesse-standalone.jar
+
+!|import|
+|fixtures|
+
+!|TestGameFeedback|
+|secretCode|guess|feedback?|
+|aaaa|aaab|bbbx|
+|aaaa|aaac|bbbx|
+|aaaa|aaaa|bbbb|

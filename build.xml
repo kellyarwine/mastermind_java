@@ -6,9 +6,10 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="src" destdir="build/classes"/>
-    </target>
-
+        <javac srcdir="src" destdir="build/classes" includeantruntime="false">
+            <compilerarg value="-Xlint"/>
+        </javac>
+</target>
     <target name="jar">
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/Mastermind.jar" basedir="build/classes">

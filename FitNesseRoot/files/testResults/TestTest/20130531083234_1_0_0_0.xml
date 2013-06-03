@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>TestTest</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>45</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/Test/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=4684813293528642782>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>calc</td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=7505480368898359351>
+	<tr>
+		<td colspan="3"><span class="pass">Add</span></td>
+	</tr>
+	<tr>
+		<td>first</td>
+		<td>second</td>
+		<td>sum?</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>5</td>
+		<td><span class="pass">9.0</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>TestTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[calc]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[pass(Add)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first]]></col>
+                    <col><![CDATA[second]]></col>
+                    <col><![CDATA[sum?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[4]]></col>
+                    <col><![CDATA[5]]></col>
+                    <col><![CDATA[pass(9.0)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, calc]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, Add]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Add]]></expected>
+                              <evaluationMessage><![CDATA[pass(Add)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[first, second, sum?], [4, 5, 9.0]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS table[1] calc.Add.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:29)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS beginTable[0] calc.Add.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:29)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS reset[0] calc.Add.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:29)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setFirst, 4]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[4]]></expected>
+                              <evaluationMessage><![CDATA[4]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setSecond, 5]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[5]]></expected>
+                              <evaluationMessage><![CDATA[5]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS execute[0] calc.Add.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:29)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, sum]]]></instruction>
+        <slimResult><![CDATA[9.0]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[9.0]]></actual>
+                              <expected><![CDATA[9.0]]></expected>
+                              <evaluationMessage><![CDATA[pass(9.0)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS endTable[0] calc.Add.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:29)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

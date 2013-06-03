@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>IntegrationTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>47</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=5612973847471719341>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=2847575289416696800>
+	<tr>
+		<td>script</td>
+		<td colspan="2"><span class="pass">play game</span></td>
+	</tr>
+	<tr>
+		<td>start game <span class="error">Method startGame[1] not found in fixtures.PlayGame.</span></td>
+		<td colspan="2"></td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td>aaaa</td>
+		<td>secret code</td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td>aaaa</td>
+		<td>guess</td>
+	</tr>
+	<tr>
+		<td>ensure <span class="error">Method gameOver[1] not found in fixtures.PlayGame.</span></td>
+		<td>game over</td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<td>ensure <span class="error">Method gameWin[1] not found in fixtures.PlayGame.</span></td>
+		<td>game win</td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<td>show <span class="error">Method numberOfGuesses[1] not found in fixtures.PlayGame.</span></td>
+		<td>number of guesses</td>
+		<td></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>IntegrationTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(play game)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[secret code]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[guess]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[game over]]></col>
+                    <col><![CDATA[true]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[game win]]></col>
+                    <col><![CDATA[true]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGame.)]]></col>
+                    <col><![CDATA[number of guesses]]></col>
+                    <col><![CDATA[]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, PlayGame]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[play game]]></expected>
+                              <evaluationMessage><![CDATA[pass(play game)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, startGame, ]]]></instruction>
+        <slimResult><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGame.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method startGame[1] not found in fixtures.PlayGame.]]></actual>
+                              <expected><![CDATA[start game]]></expected>
+                              <evaluationMessage><![CDATA[start game error(Method startGame[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, setSecretCode, aaaa]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set]]></expected>
+                              <evaluationMessage><![CDATA[set]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, setGuess, aaaa]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set]]></expected>
+                              <evaluationMessage><![CDATA[set]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, gameOver, true]]]></instruction>
+        <slimResult><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGame.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[!error:Method gameOver[1] not found in fixtures.PlayGame.]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[ensure error(Method gameOver[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, gameWin, true]]]></instruction>
+        <slimResult><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[!error:Method gameWin[1] not found in fixtures.PlayGame.]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[ensure error(Method gameWin[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, numberOfGuesses, ]]]></instruction>
+        <slimResult><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGame.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[!error:Method numberOfGuesses[1] not found in fixtures.PlayGame.]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show error(Method numberOfGuesses[1] not found in fixtures.PlayGame.)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

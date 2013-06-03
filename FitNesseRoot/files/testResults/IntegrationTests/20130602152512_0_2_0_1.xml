@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>IntegrationTests</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>45</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<span class="meta">variable defined: TEST_SYSTEM=slim</span>
+<br/><span class="meta">classpath: /Users/Kelly/Desktop/mastermind_java/build/classes</span><br/><span class="meta">classpath: /Users/Kelly/Desktop/fitnesse-standalone.jar</span><br/><br/><table _TABLENUMBER=3824954388522881704>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_1_1"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">scriptTable_1_1</p>
+	<div><pre>__EXCEPTION__:java.lang.NullPointerException
+	at example.mastermind.MockSecretCode.generate(MockSecretCode.java:21)
+	at example.mastermind.GameSecretCode.get(GameSecretCode.java:18)
+	at example.mastermind.Game.getSecretCode(Game.java:54)
+	at example.mastermind.Game.startGame(Game.java:32)
+	at example.mastermind.Game.playGame(Game.java:25)
+	at fixtures.PlayGame.startGame(PlayGame.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:218)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:207)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:104)
+	at fitnesse.slim.Statement.call(Statement.java:97)
+	at fitnesse.slim.Statement.execute(Statement.java:77)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:44)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:39)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:71)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:81)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:73)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:57)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:43)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.slim.SlimService.accept(SlimService.java:98)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:39)
+	at fitnesse.slim.SlimService.main(SlimService.java:26)
+</pre></div>
+</div>
+</div><hr/><table _TABLENUMBER=2067019108811126933>
+	<tr>
+		<td>script</td>
+		<td colspan="2"><span class="pass">play game</span></td>
+	</tr>
+	<tr>
+		<td colspan="3">start game</td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td>aaaa</td>
+		<td>secret code</td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td>aaaa</td>
+		<td>guess</td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game over</td>
+		<td>[false] <span class="fail">expected [true]</span></td>
+	</tr>
+	<tr>
+		<td>check</td>
+		<td>game win</td>
+		<td>[false] <span class="fail">expected [true]</span></td>
+	</tr>
+	<tr>
+		<td>show</td>
+		<td colspan="2">number of guesses</td>
+	<td>12</td></tr>
+	<tr>
+		<td>show</td>
+		<td colspan="2">move history</td>
+	<td>0</td></tr>
+	<tr>
+		<td>show</td>
+		<td colspan="2">secret code</td>
+	<td>aaaa</td></tr>
+</table>
+]]></content>
+    <relativePageName>IntegrationTests</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(play game)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start game]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[secret code]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[guess]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game over]]></col>
+                    <col><![CDATA[[false] fail(expected [true])]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[game win]]></col>
+                    <col><![CDATA[[false] fail(expected [true])]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[number of guesses]]></col>
+                    <col><![CDATA[12]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[move history]]></col>
+                    <col><![CDATA[0]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[secret code]]></col>
+                    <col><![CDATA[aaaa]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, PlayGame]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[play game]]></expected>
+                              <evaluationMessage><![CDATA[pass(play game)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, startGame]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_1_1>scriptTable_1_1</a>]]></actual>
+                              <expected><![CDATA[start game]]></expected>
+                              <evaluationMessage><![CDATA[start game]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_2, call, scriptTableActor, setSecretCode, aaaa]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set]]></expected>
+                              <evaluationMessage><![CDATA[set]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_3, call, scriptTableActor, setGuess, aaaa]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set]]></expected>
+                              <evaluationMessage><![CDATA[set]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_4, call, scriptTableActor, gameOver]]]></instruction>
+        <slimResult><![CDATA[false]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>scriptTable_1_4</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[false]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[[false] fail(expected [true])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_5, call, scriptTableActor, gameWin]]]></instruction>
+        <slimResult><![CDATA[false]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>scriptTable_1_5</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[false]]></actual>
+                              <expected><![CDATA[true]]></expected>
+                              <evaluationMessage><![CDATA[[false] fail(expected [true])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_6, call, scriptTableActor, numberOfGuesses]]]></instruction>
+        <slimResult><![CDATA[12]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_6</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[12]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_7, call, scriptTableActor, moveHistory]]]></instruction>
+        <slimResult><![CDATA[0]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_7</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[0]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_8, call, scriptTableActor, secretCode]]]></instruction>
+        <slimResult><![CDATA[aaaa]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_8</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[aaaa]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+
